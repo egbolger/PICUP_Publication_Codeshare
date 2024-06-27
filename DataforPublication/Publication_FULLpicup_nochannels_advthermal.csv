@@ -1,0 +1,765 @@
+Date,Time,Userid_From,Name_From,Message,Userid_To,At,Post_Category,Channel,To_Channel
+4/11/17,21:44:05,U1YKN36HF,,"<@U1YKKMTFE> Who is the faculty member at TX who teaches this course? I talked to him during the workshop, but have forgotten his name. :confused:",U1YKKMTFE,,0,advanced_thermal,FALSE
+4/11/17,21:45:57,U1YKN36HF,,<@U243ZCBUZ> would you like to join the <#C1YLDG0S3|advanced_thermal> channel?,U243ZCBUZ,,0,advanced_thermal,FALSE
+4/12/17,8:16:54,U1YEMA4BA,,"Hi <@U1YKN36HF> , I am teaching advanced thermal physics right now using Dan Schroder's book, which is very good.  He actually has several homework problems in his book that are numerical in nature, which is nice.  I also have assigned several homework assignments that are ""heavier"" in computation, including molecular dynamics, Monte Carlo (Ising model), and heat transfer (numerically solving a PDE).",U1YKN36HF,,0,advanced_thermal,FALSE
+4/12/17,10:11:45,U1YKKMTFE,,<@U243ZCBUZ> and I messed around last semester with some computational thermal problems from Mark Newman's book <http://www-personal.umich.edu/~mejn/computational-physics/>,U243ZCBUZ,,0,advanced_thermal,FALSE
+4/12/17,12:13:12,U4AG8DTQA,,"I taught undergraduate statistical physics last fall.  There is a separate thermo course that's a prerequisite.  For a text I used both Schroeder (which students should have already bought for thermo) and Blundell &amp; Blundell (for its coverage of kinetic theory, thermal transport, and linear response).  I assigned some of the numerical problems out of Schroeder that <@U1YEMA4BA> alluded to, but because my students had no common ""toolkit"" (sadly our program is lacking any regular computational component at this point---I have been lurking in PICUP to get ideas for revising our curriculum) I didn't feel any larger-scale computational projects would be manageable.",U1YEMA4BA,,0,advanced_thermal,FALSE
+4/14/17,18:11:54,U243ZCBUZ,,"<@U1YKN36HF> I'm using Schroeder for my course. One of the reasons I picked him (in addition to the clarity of his exposition) was for the computational exercises that he includes (especially in chapters 2 and 3). I included many of these computational exercises among the set of challenge problems from which my students could pick for their final project (though only one group picked a CM problem)
+
+One of the big CM projects I had my students to was to create a model of the heat capacity of an Einstein solid and compare the results to actual data of lead and aluminum. (I ~stole~ adapted this problem from Matter and Interactions). 
+
+I also put together a worksheet designed to walk students through using CM to compute Boltzmann statistics (including partition function, average energy, heat capacity, etc) using hydrogen as a test case. We'll be doing that next week and I can report back then. 
+
+One thing I regret not doing was to model a random walk. Here is a Trinket I build to simulate the Drude model (note the constant average velocity in an electric field), which I might design an activity around the next time I teach stat phys. <https://trinket.io/glowscript/7fe2554cc3>",U1YKN36HF,,0,advanced_thermal,FALSE
+4/17/17,21:31:55,U4AG8DTQA,,"If you're looking for that sort of application, of ideas from stat mech to other disciplines, I'd recommend starting with simulated annealing as a way to find ""good enough"" solutions to difficult minimization problems.",U1YKN36HF,,0,advanced_thermal,FALSE
+4/19/17,13:38:02,U1YKN36HF,,<@U1YEMA4BA> Do you like doing thermo before statistics? It seems to me a better story if you go from microscopic properties to macroscopic properties; this is what attracted me to Gould and Tobochnik. What do you think are the pros / cons of either approach (thermo before stats or the other way around)?,U1YEMA4BA,,0,advanced_thermal,FALSE
+2/6/18,21:22:52,U1YEMA4BA,,"Hi <@U1YKN36HF>.  Yes, they are using units where all positions are in units of (or divided by) ""sigma"" energies are in units of ""epsilon"" etc.  (It is the same thing in both their STP and CSM textbooks, and in Ch. 16 of Rubin Landau's book -- all of which are available on ComPADRE.)  Here is a table listing these units that I got from one of these books...I don't recall which.  So to turn a simulated value into SI units, you would multiply by the value of ""sigma"" or ""epsilon"" etc. The 0 th file name and title is image.png; image.png.",U1YKN36HF,,0,advanced_thermal,FALSE
+8/5/16,10:48:30,U1YCYCK61,,<@U1YCYCK61> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+8/5/16,10:48:30,U1YCYCK61,,<@U1YCYCK61> set the channel description: Discussions of Upper-level Thermal Physics &amp; Statistical Mechanics,U1YCYCK61,,norm,advanced_thermal,TRUE
+8/5/16,10:50:48,U1YKN36HF,,<@U1YKN36HF> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+8/5/16,15:40:00,U1YKW1FKR,,<@U1YKW1FKR> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+8/5/16,15:40:00,U1YKW1FKR,,<@U1YKW1FKR> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+8/5/16,23:36:59,U1YJ38A8K,,<@U1YJ38A8K> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+8/5/16,23:36:59,U1YJ38A8K,,<@U1YJ38A8K> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+8/5/16,23:36:59,U1YJ38A8K,,<@U1YJ38A8K> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+8/6/16,7:50:55,U1YEMA4BA,,<@U1YEMA4BA> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+8/6/16,7:50:55,U1YEMA4BA,,<@U1YEMA4BA> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+8/6/16,7:50:55,U1YEMA4BA,,<@U1YEMA4BA> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+8/6/16,7:50:55,U1YEMA4BA,,<@U1YEMA4BA> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+8/11/16,10:29:28,U1YL4RMRQ,,<@U1YL4RMRQ> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+8/11/16,10:29:28,U1YL4RMRQ,,<@U1YL4RMRQ> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+8/11/16,10:29:28,U1YL4RMRQ,,<@U1YL4RMRQ> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+8/11/16,10:29:28,U1YL4RMRQ,,<@U1YL4RMRQ> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+8/11/16,10:29:28,U1YL4RMRQ,,<@U1YL4RMRQ> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+2/6/17,14:46:03,U1YKWAY31,,<@U1YKWAY31> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+2/6/17,14:46:03,U1YKWAY31,,<@U1YKWAY31> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+2/6/17,14:46:03,U1YKWAY31,,<@U1YKWAY31> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+2/6/17,14:46:03,U1YKWAY31,,<@U1YKWAY31> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+2/6/17,14:46:03,U1YKWAY31,,<@U1YKWAY31> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+2/6/17,14:46:03,U1YKWAY31,,<@U1YKWAY31> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+2/19/17,17:18:10,U47FDDCBV,,<@U47FDDCBV> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+2/19/17,17:18:10,U47FDDCBV,,<@U47FDDCBV> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+2/19/17,17:18:10,U47FDDCBV,,<@U47FDDCBV> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+2/19/17,17:18:10,U47FDDCBV,,<@U47FDDCBV> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+2/19/17,17:18:10,U47FDDCBV,,<@U47FDDCBV> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+2/19/17,17:18:10,U47FDDCBV,,<@U47FDDCBV> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+2/19/17,17:18:10,U47FDDCBV,,<@U47FDDCBV> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+2/26/17,16:01:53,U4AG8DTQA,,<@U4AG8DTQA> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+2/26/17,16:01:53,U4AG8DTQA,,<@U4AG8DTQA> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+2/26/17,16:01:53,U4AG8DTQA,,<@U4AG8DTQA> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+2/26/17,16:01:53,U4AG8DTQA,,<@U4AG8DTQA> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+2/26/17,16:01:53,U4AG8DTQA,,<@U4AG8DTQA> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+2/26/17,16:01:53,U4AG8DTQA,,<@U4AG8DTQA> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+2/26/17,16:01:53,U4AG8DTQA,,<@U4AG8DTQA> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+2/26/17,16:01:53,U4AG8DTQA,,<@U4AG8DTQA> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+4/11/17,21:43:05,U1YKN36HF,,Hi <!channel>  I will be teaching Stat Mech &amp; Thermo next year. I am curious... what textbook do you use? what computational projects? experiments? I would like a more applied approach with connections to experiments and the real world.,U1YCYCK61,,0,advanced_thermal,TRUE
+4/11/17,21:43:05,U1YKN36HF,,Hi <!channel>  I will be teaching Stat Mech &amp; Thermo next year. I am curious... what textbook do you use? what computational projects? experiments? I would like a more applied approach with connections to experiments and the real world.,U1YEMA4BA,,0,advanced_thermal,TRUE
+4/11/17,21:43:05,U1YKN36HF,,Hi <!channel>  I will be teaching Stat Mech &amp; Thermo next year. I am curious... what textbook do you use? what computational projects? experiments? I would like a more applied approach with connections to experiments and the real world.,U1YJ38A8K,,0,advanced_thermal,TRUE
+4/11/17,21:43:05,U1YKN36HF,,Hi <!channel>  I will be teaching Stat Mech &amp; Thermo next year. I am curious... what textbook do you use? what computational projects? experiments? I would like a more applied approach with connections to experiments and the real world.,U1YKW1FKR,,0,advanced_thermal,TRUE
+4/11/17,21:43:05,U1YKN36HF,,Hi <!channel>  I will be teaching Stat Mech &amp; Thermo next year. I am curious... what textbook do you use? what computational projects? experiments? I would like a more applied approach with connections to experiments and the real world.,U1YKWAY31,,0,advanced_thermal,TRUE
+4/11/17,21:43:05,U1YKN36HF,,Hi <!channel>  I will be teaching Stat Mech &amp; Thermo next year. I am curious... what textbook do you use? what computational projects? experiments? I would like a more applied approach with connections to experiments and the real world.,U1YL4RMRQ,,0,advanced_thermal,TRUE
+4/11/17,21:43:05,U1YKN36HF,,Hi <!channel>  I will be teaching Stat Mech &amp; Thermo next year. I am curious... what textbook do you use? what computational projects? experiments? I would like a more applied approach with connections to experiments and the real world.,U47FDDCBV,,0,advanced_thermal,TRUE
+4/11/17,21:43:05,U1YKN36HF,,Hi <!channel>  I will be teaching Stat Mech &amp; Thermo next year. I am curious... what textbook do you use? what computational projects? experiments? I would like a more applied approach with connections to experiments and the real world.,U4AG8DTQA,,0,advanced_thermal,TRUE
+4/11/17,21:44:58,U1YKKMTFE,,<@U1YKKMTFE> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+4/11/17,21:44:58,U1YKKMTFE,,<@U1YKKMTFE> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+4/11/17,21:44:58,U1YKKMTFE,,<@U1YKKMTFE> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+4/11/17,21:44:58,U1YKKMTFE,,<@U1YKKMTFE> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+4/11/17,21:44:58,U1YKKMTFE,,<@U1YKKMTFE> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+4/11/17,21:44:58,U1YKKMTFE,,<@U1YKKMTFE> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+4/11/17,21:44:58,U1YKKMTFE,,<@U1YKKMTFE> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+4/11/17,21:44:58,U1YKKMTFE,,<@U1YKKMTFE> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+4/11/17,21:44:58,U1YKKMTFE,,<@U1YKKMTFE> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+4/11/17,21:45:03,U1YKKMTFE,,NAME,U1YCYCK61,,0,advanced_thermal,TRUE
+4/11/17,21:45:03,U1YKKMTFE,,NAME,U1YEMA4BA,,0,advanced_thermal,TRUE
+4/11/17,21:45:03,U1YKKMTFE,,NAME,U1YJ38A8K,,0,advanced_thermal,TRUE
+4/11/17,21:45:03,U1YKKMTFE,,NAME,U1YKN36HF,,0,advanced_thermal,TRUE
+4/11/17,21:45:03,U1YKKMTFE,,NAME,U1YKW1FKR,,0,advanced_thermal,TRUE
+4/11/17,21:45:03,U1YKKMTFE,,NAME,U1YKWAY31,,0,advanced_thermal,TRUE
+4/11/17,21:45:03,U1YKKMTFE,,NAME,U1YL4RMRQ,,0,advanced_thermal,TRUE
+4/11/17,21:45:03,U1YKKMTFE,,NAME,U47FDDCBV,,0,advanced_thermal,TRUE
+4/11/17,21:45:03,U1YKKMTFE,,NAME,U4AG8DTQA,,0,advanced_thermal,TRUE
+4/11/17,21:45:25,U1YKN36HF,,That was fast! Thanks!,U1YCYCK61,,0,advanced_thermal,TRUE
+4/11/17,21:45:25,U1YKN36HF,,That was fast! Thanks!,U1YEMA4BA,,0,advanced_thermal,TRUE
+4/11/17,21:45:25,U1YKN36HF,,That was fast! Thanks!,U1YJ38A8K,,0,advanced_thermal,TRUE
+4/11/17,21:45:25,U1YKN36HF,,That was fast! Thanks!,U1YKKMTFE,,0,advanced_thermal,TRUE
+4/11/17,21:45:25,U1YKN36HF,,That was fast! Thanks!,U1YKW1FKR,,0,advanced_thermal,TRUE
+4/11/17,21:45:25,U1YKN36HF,,That was fast! Thanks!,U1YKWAY31,,0,advanced_thermal,TRUE
+4/11/17,21:45:25,U1YKN36HF,,That was fast! Thanks!,U1YL4RMRQ,,0,advanced_thermal,TRUE
+4/11/17,21:45:25,U1YKN36HF,,That was fast! Thanks!,U47FDDCBV,,0,advanced_thermal,TRUE
+4/11/17,21:45:25,U1YKN36HF,,That was fast! Thanks!,U4AG8DTQA,,0,advanced_thermal,TRUE
+4/11/17,21:46:03,U243ZCBUZ,,<@U243ZCBUZ> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+4/11/17,21:46:03,U243ZCBUZ,,<@U243ZCBUZ> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+4/11/17,21:46:03,U243ZCBUZ,,<@U243ZCBUZ> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+4/11/17,21:46:03,U243ZCBUZ,,<@U243ZCBUZ> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+4/11/17,21:46:03,U243ZCBUZ,,<@U243ZCBUZ> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+4/11/17,21:46:03,U243ZCBUZ,,<@U243ZCBUZ> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+4/11/17,21:46:03,U243ZCBUZ,,<@U243ZCBUZ> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+4/11/17,21:46:03,U243ZCBUZ,,<@U243ZCBUZ> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+4/11/17,21:46:03,U243ZCBUZ,,<@U243ZCBUZ> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+4/11/17,21:46:03,U243ZCBUZ,,<@U243ZCBUZ> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+4/12/17,10:52:38,U1YKN36HF,,Has anyone used Gould and Tobochnki's book (Statistical and Thermal Physics with computer applications)? I am intrigued...,U1YCYCK61,,0,advanced_thermal,TRUE
+4/12/17,10:52:38,U1YKN36HF,,Has anyone used Gould and Tobochnki's book (Statistical and Thermal Physics with computer applications)? I am intrigued...,U1YEMA4BA,,0,advanced_thermal,TRUE
+4/12/17,10:52:38,U1YKN36HF,,Has anyone used Gould and Tobochnki's book (Statistical and Thermal Physics with computer applications)? I am intrigued...,U1YJ38A8K,,0,advanced_thermal,TRUE
+4/12/17,10:52:38,U1YKN36HF,,Has anyone used Gould and Tobochnki's book (Statistical and Thermal Physics with computer applications)? I am intrigued...,U1YKKMTFE,,0,advanced_thermal,TRUE
+4/12/17,10:52:38,U1YKN36HF,,Has anyone used Gould and Tobochnki's book (Statistical and Thermal Physics with computer applications)? I am intrigued...,U1YKW1FKR,,0,advanced_thermal,TRUE
+4/12/17,10:52:38,U1YKN36HF,,Has anyone used Gould and Tobochnki's book (Statistical and Thermal Physics with computer applications)? I am intrigued...,U1YKWAY31,,0,advanced_thermal,TRUE
+4/12/17,10:52:38,U1YKN36HF,,Has anyone used Gould and Tobochnki's book (Statistical and Thermal Physics with computer applications)? I am intrigued...,U1YL4RMRQ,,0,advanced_thermal,TRUE
+4/12/17,10:52:38,U1YKN36HF,,Has anyone used Gould and Tobochnki's book (Statistical and Thermal Physics with computer applications)? I am intrigued...,U243ZCBUZ,,0,advanced_thermal,TRUE
+4/12/17,10:52:38,U1YKN36HF,,Has anyone used Gould and Tobochnki's book (Statistical and Thermal Physics with computer applications)? I am intrigued...,U47FDDCBV,,0,advanced_thermal,TRUE
+4/12/17,10:52:38,U1YKN36HF,,Has anyone used Gould and Tobochnki's book (Statistical and Thermal Physics with computer applications)? I am intrigued...,U4AG8DTQA,,0,advanced_thermal,TRUE
+4/12/17,10:55:38,U1YEMA4BA,,"I have given some reading assignments from it, and it is a good reference.  I find it to be too long and wordy to work as a textbook (sorry NAME and NAME if you see this :slightly_smiling_face:).  It has the advantage of being completely free on <http://www.compadre.org/stp|www.compadre.org/stp>.",U1YCYCK61,,0,advanced_thermal,TRUE
+4/12/17,10:55:38,U1YEMA4BA,,"I have given some reading assignments from it, and it is a good reference.  I find it to be too long and wordy to work as a textbook (sorry NAME and NAME if you see this :slightly_smiling_face:).  It has the advantage of being completely free on <http://www.compadre.org/stp|www.compadre.org/stp>.",U1YJ38A8K,,0,advanced_thermal,TRUE
+4/12/17,10:55:38,U1YEMA4BA,,"I have given some reading assignments from it, and it is a good reference.  I find it to be too long and wordy to work as a textbook (sorry NAME and NAME if you see this :slightly_smiling_face:).  It has the advantage of being completely free on <http://www.compadre.org/stp|www.compadre.org/stp>.",U1YKKMTFE,,0,advanced_thermal,TRUE
+4/12/17,10:55:38,U1YEMA4BA,,"I have given some reading assignments from it, and it is a good reference.  I find it to be too long and wordy to work as a textbook (sorry NAME and NAME if you see this :slightly_smiling_face:).  It has the advantage of being completely free on <http://www.compadre.org/stp|www.compadre.org/stp>.",U1YKN36HF,,0,advanced_thermal,TRUE
+4/12/17,10:55:38,U1YEMA4BA,,"I have given some reading assignments from it, and it is a good reference.  I find it to be too long and wordy to work as a textbook (sorry NAME and NAME if you see this :slightly_smiling_face:).  It has the advantage of being completely free on <http://www.compadre.org/stp|www.compadre.org/stp>.",U1YKW1FKR,,0,advanced_thermal,TRUE
+4/12/17,10:55:38,U1YEMA4BA,,"I have given some reading assignments from it, and it is a good reference.  I find it to be too long and wordy to work as a textbook (sorry NAME and NAME if you see this :slightly_smiling_face:).  It has the advantage of being completely free on <http://www.compadre.org/stp|www.compadre.org/stp>.",U1YKWAY31,,0,advanced_thermal,TRUE
+4/12/17,10:55:38,U1YEMA4BA,,"I have given some reading assignments from it, and it is a good reference.  I find it to be too long and wordy to work as a textbook (sorry NAME and NAME if you see this :slightly_smiling_face:).  It has the advantage of being completely free on <http://www.compadre.org/stp|www.compadre.org/stp>.",U1YL4RMRQ,,0,advanced_thermal,TRUE
+4/12/17,10:55:38,U1YEMA4BA,,"I have given some reading assignments from it, and it is a good reference.  I find it to be too long and wordy to work as a textbook (sorry NAME and NAME if you see this :slightly_smiling_face:).  It has the advantage of being completely free on <http://www.compadre.org/stp|www.compadre.org/stp>.",U243ZCBUZ,,0,advanced_thermal,TRUE
+4/12/17,10:55:38,U1YEMA4BA,,"I have given some reading assignments from it, and it is a good reference.  I find it to be too long and wordy to work as a textbook (sorry NAME and NAME if you see this :slightly_smiling_face:).  It has the advantage of being completely free on <http://www.compadre.org/stp|www.compadre.org/stp>.",U47FDDCBV,,0,advanced_thermal,TRUE
+4/12/17,10:55:38,U1YEMA4BA,,"I have given some reading assignments from it, and it is a good reference.  I find it to be too long and wordy to work as a textbook (sorry NAME and NAME if you see this :slightly_smiling_face:).  It has the advantage of being completely free on <http://www.compadre.org/stp|www.compadre.org/stp>.",U4AG8DTQA,,0,advanced_thermal,TRUE
+4/12/17,12:19:37,U1YKWAY31,,"NAME, I taught stat mech back in history when I started at Bradley, and it was the original playground for my initial attempts at integrating computational activities into undergraduate courses.  By the way, I used Reif for a textbook-it still is my favorite.  I have quite a bit of ""stuff"" in various forms; but, I intend to make a Herculean effort to put at least some of it in the form of our sanctioned PICUP Exercise Sets.  I'm happy to share what I have, but it might be beneficial to wait and see what Exercise Sets I have created by mid summer.  That would probably be the most accessible way to see and consider it all.",U1YCYCK61,,0,advanced_thermal,TRUE
+4/12/17,12:19:37,U1YKWAY31,,"NAME, I taught stat mech back in history when I started at Bradley, and it was the original playground for my initial attempts at integrating computational activities into undergraduate courses.  By the way, I used Reif for a textbook-it still is my favorite.  I have quite a bit of ""stuff"" in various forms; but, I intend to make a Herculean effort to put at least some of it in the form of our sanctioned PICUP Exercise Sets.  I'm happy to share what I have, but it might be beneficial to wait and see what Exercise Sets I have created by mid summer.  That would probably be the most accessible way to see and consider it all.",U1YEMA4BA,,0,advanced_thermal,TRUE
+4/12/17,12:19:37,U1YKWAY31,,"NAME, I taught stat mech back in history when I started at Bradley, and it was the original playground for my initial attempts at integrating computational activities into undergraduate courses.  By the way, I used Reif for a textbook-it still is my favorite.  I have quite a bit of ""stuff"" in various forms; but, I intend to make a Herculean effort to put at least some of it in the form of our sanctioned PICUP Exercise Sets.  I'm happy to share what I have, but it might be beneficial to wait and see what Exercise Sets I have created by mid summer.  That would probably be the most accessible way to see and consider it all.",U1YJ38A8K,,0,advanced_thermal,TRUE
+4/12/17,12:19:37,U1YKWAY31,,"NAME, I taught stat mech back in history when I started at Bradley, and it was the original playground for my initial attempts at integrating computational activities into undergraduate courses.  By the way, I used Reif for a textbook-it still is my favorite.  I have quite a bit of ""stuff"" in various forms; but, I intend to make a Herculean effort to put at least some of it in the form of our sanctioned PICUP Exercise Sets.  I'm happy to share what I have, but it might be beneficial to wait and see what Exercise Sets I have created by mid summer.  That would probably be the most accessible way to see and consider it all.",U1YKKMTFE,,0,advanced_thermal,TRUE
+4/12/17,12:19:37,U1YKWAY31,,"NAME, I taught stat mech back in history when I started at Bradley, and it was the original playground for my initial attempts at integrating computational activities into undergraduate courses.  By the way, I used Reif for a textbook-it still is my favorite.  I have quite a bit of ""stuff"" in various forms; but, I intend to make a Herculean effort to put at least some of it in the form of our sanctioned PICUP Exercise Sets.  I'm happy to share what I have, but it might be beneficial to wait and see what Exercise Sets I have created by mid summer.  That would probably be the most accessible way to see and consider it all.",U1YKN36HF,,0,advanced_thermal,TRUE
+4/12/17,12:19:37,U1YKWAY31,,"NAME, I taught stat mech back in history when I started at Bradley, and it was the original playground for my initial attempts at integrating computational activities into undergraduate courses.  By the way, I used Reif for a textbook-it still is my favorite.  I have quite a bit of ""stuff"" in various forms; but, I intend to make a Herculean effort to put at least some of it in the form of our sanctioned PICUP Exercise Sets.  I'm happy to share what I have, but it might be beneficial to wait and see what Exercise Sets I have created by mid summer.  That would probably be the most accessible way to see and consider it all.",U1YKW1FKR,,0,advanced_thermal,TRUE
+4/12/17,12:19:37,U1YKWAY31,,"NAME, I taught stat mech back in history when I started at Bradley, and it was the original playground for my initial attempts at integrating computational activities into undergraduate courses.  By the way, I used Reif for a textbook-it still is my favorite.  I have quite a bit of ""stuff"" in various forms; but, I intend to make a Herculean effort to put at least some of it in the form of our sanctioned PICUP Exercise Sets.  I'm happy to share what I have, but it might be beneficial to wait and see what Exercise Sets I have created by mid summer.  That would probably be the most accessible way to see and consider it all.",U1YL4RMRQ,,0,advanced_thermal,TRUE
+4/12/17,12:19:37,U1YKWAY31,,"NAME, I taught stat mech back in history when I started at Bradley, and it was the original playground for my initial attempts at integrating computational activities into undergraduate courses.  By the way, I used Reif for a textbook-it still is my favorite.  I have quite a bit of ""stuff"" in various forms; but, I intend to make a Herculean effort to put at least some of it in the form of our sanctioned PICUP Exercise Sets.  I'm happy to share what I have, but it might be beneficial to wait and see what Exercise Sets I have created by mid summer.  That would probably be the most accessible way to see and consider it all.",U243ZCBUZ,,0,advanced_thermal,TRUE
+4/12/17,12:19:37,U1YKWAY31,,"NAME, I taught stat mech back in history when I started at Bradley, and it was the original playground for my initial attempts at integrating computational activities into undergraduate courses.  By the way, I used Reif for a textbook-it still is my favorite.  I have quite a bit of ""stuff"" in various forms; but, I intend to make a Herculean effort to put at least some of it in the form of our sanctioned PICUP Exercise Sets.  I'm happy to share what I have, but it might be beneficial to wait and see what Exercise Sets I have created by mid summer.  That would probably be the most accessible way to see and consider it all.",U47FDDCBV,,0,advanced_thermal,TRUE
+4/12/17,12:19:37,U1YKWAY31,,"NAME, I taught stat mech back in history when I started at Bradley, and it was the original playground for my initial attempts at integrating computational activities into undergraduate courses.  By the way, I used Reif for a textbook-it still is my favorite.  I have quite a bit of ""stuff"" in various forms; but, I intend to make a Herculean effort to put at least some of it in the form of our sanctioned PICUP Exercise Sets.  I'm happy to share what I have, but it might be beneficial to wait and see what Exercise Sets I have created by mid summer.  That would probably be the most accessible way to see and consider it all.",U4AG8DTQA,,0,advanced_thermal,TRUE
+4/12/17,12:29:10,U4AG8DTQA,,"Thinking about applications, the problem of ""refrigeration"" in all its aspects could be weaved through just about every part of a thermo/stat-mech course. The reverse Carnot cycle, Joule-Thompson process, adiabatic demagnetization, pulse-tube cryocoolers, liquid-gas phase change (i.e. conventional) fridges, He-3 dilution fridges, laser cooling, evaporative cooling...",U1YCYCK61,,0,advanced_thermal,TRUE
+4/12/17,12:29:10,U4AG8DTQA,,"Thinking about applications, the problem of ""refrigeration"" in all its aspects could be weaved through just about every part of a thermo/stat-mech course. The reverse Carnot cycle, Joule-Thompson process, adiabatic demagnetization, pulse-tube cryocoolers, liquid-gas phase change (i.e. conventional) fridges, He-3 dilution fridges, laser cooling, evaporative cooling...",U1YEMA4BA,,0,advanced_thermal,TRUE
+4/12/17,12:29:10,U4AG8DTQA,,"Thinking about applications, the problem of ""refrigeration"" in all its aspects could be weaved through just about every part of a thermo/stat-mech course. The reverse Carnot cycle, Joule-Thompson process, adiabatic demagnetization, pulse-tube cryocoolers, liquid-gas phase change (i.e. conventional) fridges, He-3 dilution fridges, laser cooling, evaporative cooling...",U1YJ38A8K,,0,advanced_thermal,TRUE
+4/12/17,12:29:10,U4AG8DTQA,,"Thinking about applications, the problem of ""refrigeration"" in all its aspects could be weaved through just about every part of a thermo/stat-mech course. The reverse Carnot cycle, Joule-Thompson process, adiabatic demagnetization, pulse-tube cryocoolers, liquid-gas phase change (i.e. conventional) fridges, He-3 dilution fridges, laser cooling, evaporative cooling...",U1YKKMTFE,,0,advanced_thermal,TRUE
+4/12/17,12:29:10,U4AG8DTQA,,"Thinking about applications, the problem of ""refrigeration"" in all its aspects could be weaved through just about every part of a thermo/stat-mech course. The reverse Carnot cycle, Joule-Thompson process, adiabatic demagnetization, pulse-tube cryocoolers, liquid-gas phase change (i.e. conventional) fridges, He-3 dilution fridges, laser cooling, evaporative cooling...",U1YKN36HF,,0,advanced_thermal,TRUE
+4/12/17,12:29:10,U4AG8DTQA,,"Thinking about applications, the problem of ""refrigeration"" in all its aspects could be weaved through just about every part of a thermo/stat-mech course. The reverse Carnot cycle, Joule-Thompson process, adiabatic demagnetization, pulse-tube cryocoolers, liquid-gas phase change (i.e. conventional) fridges, He-3 dilution fridges, laser cooling, evaporative cooling...",U1YKW1FKR,,0,advanced_thermal,TRUE
+4/12/17,12:29:10,U4AG8DTQA,,"Thinking about applications, the problem of ""refrigeration"" in all its aspects could be weaved through just about every part of a thermo/stat-mech course. The reverse Carnot cycle, Joule-Thompson process, adiabatic demagnetization, pulse-tube cryocoolers, liquid-gas phase change (i.e. conventional) fridges, He-3 dilution fridges, laser cooling, evaporative cooling...",U1YKWAY31,,0,advanced_thermal,TRUE
+4/12/17,12:29:10,U4AG8DTQA,,"Thinking about applications, the problem of ""refrigeration"" in all its aspects could be weaved through just about every part of a thermo/stat-mech course. The reverse Carnot cycle, Joule-Thompson process, adiabatic demagnetization, pulse-tube cryocoolers, liquid-gas phase change (i.e. conventional) fridges, He-3 dilution fridges, laser cooling, evaporative cooling...",U1YL4RMRQ,,0,advanced_thermal,TRUE
+4/12/17,12:29:10,U4AG8DTQA,,"Thinking about applications, the problem of ""refrigeration"" in all its aspects could be weaved through just about every part of a thermo/stat-mech course. The reverse Carnot cycle, Joule-Thompson process, adiabatic demagnetization, pulse-tube cryocoolers, liquid-gas phase change (i.e. conventional) fridges, He-3 dilution fridges, laser cooling, evaporative cooling...",U243ZCBUZ,,0,advanced_thermal,TRUE
+4/12/17,12:29:10,U4AG8DTQA,,"Thinking about applications, the problem of ""refrigeration"" in all its aspects could be weaved through just about every part of a thermo/stat-mech course. The reverse Carnot cycle, Joule-Thompson process, adiabatic demagnetization, pulse-tube cryocoolers, liquid-gas phase change (i.e. conventional) fridges, He-3 dilution fridges, laser cooling, evaporative cooling...",U47FDDCBV,,0,advanced_thermal,TRUE
+4/12/17,13:14:21,U1YEMA4BA,,"For my thermal course, I have the students submit their homework EXCLUSIVELY using Jupyter notebooks. For the ""paper and pencil"" problems, I have them use LaTeX/markdown in Jupyter, they make lots of plots in matplotib, and they do any numerical problem solving in the same notebook.  Regarding refrigeration, I think Schroeder does a very nice job with this topic, although his coverage of the ""fancier"" (low temperature) refrigeration is very brief.",U1YCYCK61,,0,advanced_thermal,TRUE
+4/12/17,13:14:21,U1YEMA4BA,,"For my thermal course, I have the students submit their homework EXCLUSIVELY using Jupyter notebooks. For the ""paper and pencil"" problems, I have them use LaTeX/markdown in Jupyter, they make lots of plots in matplotib, and they do any numerical problem solving in the same notebook.  Regarding refrigeration, I think Schroeder does a very nice job with this topic, although his coverage of the ""fancier"" (low temperature) refrigeration is very brief.",U1YJ38A8K,,0,advanced_thermal,TRUE
+4/12/17,13:14:21,U1YEMA4BA,,"For my thermal course, I have the students submit their homework EXCLUSIVELY using Jupyter notebooks. For the ""paper and pencil"" problems, I have them use LaTeX/markdown in Jupyter, they make lots of plots in matplotib, and they do any numerical problem solving in the same notebook.  Regarding refrigeration, I think Schroeder does a very nice job with this topic, although his coverage of the ""fancier"" (low temperature) refrigeration is very brief.",U1YKKMTFE,,0,advanced_thermal,TRUE
+4/12/17,13:14:21,U1YEMA4BA,,"For my thermal course, I have the students submit their homework EXCLUSIVELY using Jupyter notebooks. For the ""paper and pencil"" problems, I have them use LaTeX/markdown in Jupyter, they make lots of plots in matplotib, and they do any numerical problem solving in the same notebook.  Regarding refrigeration, I think Schroeder does a very nice job with this topic, although his coverage of the ""fancier"" (low temperature) refrigeration is very brief.",U1YKN36HF,,0,advanced_thermal,TRUE
+4/12/17,13:14:21,U1YEMA4BA,,"For my thermal course, I have the students submit their homework EXCLUSIVELY using Jupyter notebooks. For the ""paper and pencil"" problems, I have them use LaTeX/markdown in Jupyter, they make lots of plots in matplotib, and they do any numerical problem solving in the same notebook.  Regarding refrigeration, I think Schroeder does a very nice job with this topic, although his coverage of the ""fancier"" (low temperature) refrigeration is very brief.",U1YKW1FKR,,0,advanced_thermal,TRUE
+4/12/17,13:14:21,U1YEMA4BA,,"For my thermal course, I have the students submit their homework EXCLUSIVELY using Jupyter notebooks. For the ""paper and pencil"" problems, I have them use LaTeX/markdown in Jupyter, they make lots of plots in matplotib, and they do any numerical problem solving in the same notebook.  Regarding refrigeration, I think Schroeder does a very nice job with this topic, although his coverage of the ""fancier"" (low temperature) refrigeration is very brief.",U1YKWAY31,,0,advanced_thermal,TRUE
+4/12/17,13:14:21,U1YEMA4BA,,"For my thermal course, I have the students submit their homework EXCLUSIVELY using Jupyter notebooks. For the ""paper and pencil"" problems, I have them use LaTeX/markdown in Jupyter, they make lots of plots in matplotib, and they do any numerical problem solving in the same notebook.  Regarding refrigeration, I think Schroeder does a very nice job with this topic, although his coverage of the ""fancier"" (low temperature) refrigeration is very brief.",U1YL4RMRQ,,0,advanced_thermal,TRUE
+4/12/17,13:14:21,U1YEMA4BA,,"For my thermal course, I have the students submit their homework EXCLUSIVELY using Jupyter notebooks. For the ""paper and pencil"" problems, I have them use LaTeX/markdown in Jupyter, they make lots of plots in matplotib, and they do any numerical problem solving in the same notebook.  Regarding refrigeration, I think Schroeder does a very nice job with this topic, although his coverage of the ""fancier"" (low temperature) refrigeration is very brief.",U243ZCBUZ,,0,advanced_thermal,TRUE
+4/12/17,13:14:21,U1YEMA4BA,,"For my thermal course, I have the students submit their homework EXCLUSIVELY using Jupyter notebooks. For the ""paper and pencil"" problems, I have them use LaTeX/markdown in Jupyter, they make lots of plots in matplotib, and they do any numerical problem solving in the same notebook.  Regarding refrigeration, I think Schroeder does a very nice job with this topic, although his coverage of the ""fancier"" (low temperature) refrigeration is very brief.",U47FDDCBV,,0,advanced_thermal,TRUE
+4/12/17,13:14:21,U1YEMA4BA,,"For my thermal course, I have the students submit their homework EXCLUSIVELY using Jupyter notebooks. For the ""paper and pencil"" problems, I have them use LaTeX/markdown in Jupyter, they make lots of plots in matplotib, and they do any numerical problem solving in the same notebook.  Regarding refrigeration, I think Schroeder does a very nice job with this topic, although his coverage of the ""fancier"" (low temperature) refrigeration is very brief.",U4AG8DTQA,,0,advanced_thermal,TRUE
+4/12/17,14:50:29,U1YKN36HF,,"How about other ""real-world"" applications? For example, one of my colleagues pointed to this: <https://en.wikipedia.org/wiki/Boltzmann_machine>",U1YCYCK61,,0,advanced_thermal,TRUE
+4/12/17,14:50:29,U1YKN36HF,,"How about other ""real-world"" applications? For example, one of my colleagues pointed to this: <https://en.wikipedia.org/wiki/Boltzmann_machine>",U1YEMA4BA,,0,advanced_thermal,TRUE
+4/12/17,14:50:29,U1YKN36HF,,"How about other ""real-world"" applications? For example, one of my colleagues pointed to this: <https://en.wikipedia.org/wiki/Boltzmann_machine>",U1YJ38A8K,,0,advanced_thermal,TRUE
+4/12/17,14:50:29,U1YKN36HF,,"How about other ""real-world"" applications? For example, one of my colleagues pointed to this: <https://en.wikipedia.org/wiki/Boltzmann_machine>",U1YKKMTFE,,0,advanced_thermal,TRUE
+4/12/17,14:50:29,U1YKN36HF,,"How about other ""real-world"" applications? For example, one of my colleagues pointed to this: <https://en.wikipedia.org/wiki/Boltzmann_machine>",U1YKW1FKR,,0,advanced_thermal,TRUE
+4/12/17,14:50:29,U1YKN36HF,,"How about other ""real-world"" applications? For example, one of my colleagues pointed to this: <https://en.wikipedia.org/wiki/Boltzmann_machine>",U1YKWAY31,,0,advanced_thermal,TRUE
+4/12/17,14:50:29,U1YKN36HF,,"How about other ""real-world"" applications? For example, one of my colleagues pointed to this: <https://en.wikipedia.org/wiki/Boltzmann_machine>",U1YL4RMRQ,,0,advanced_thermal,TRUE
+4/12/17,14:50:29,U1YKN36HF,,"How about other ""real-world"" applications? For example, one of my colleagues pointed to this: <https://en.wikipedia.org/wiki/Boltzmann_machine>",U243ZCBUZ,,0,advanced_thermal,TRUE
+4/12/17,14:50:29,U1YKN36HF,,"How about other ""real-world"" applications? For example, one of my colleagues pointed to this: <https://en.wikipedia.org/wiki/Boltzmann_machine>",U47FDDCBV,,0,advanced_thermal,TRUE
+4/12/17,14:50:29,U1YKN36HF,,"How about other ""real-world"" applications? For example, one of my colleagues pointed to this: <https://en.wikipedia.org/wiki/Boltzmann_machine>",U4AG8DTQA,,0,advanced_thermal,TRUE
+4/19/17,8:02:36,U1YEMA4BA,,"In response to the simulated annealing comment from yesterday, here are a couple of simulations that I prepared a few years ago and have used in the past in the context of a computational physics course:
+- Simulated Annealing: <http://www.compadre.org/osp/items/detail.cfm?ID=11538>
+- Diffusion Limited Aggregation: <http://www.compadre.org/osp/items/detail.cfm?ID=11536>
+Both of these can be downloaded as executable JAR files and as source code (created with ""EJS"" or ""Easy Java Simulations"")",U1YCYCK61,,0,advanced_thermal,TRUE
+4/19/17,8:02:36,U1YEMA4BA,,"In response to the simulated annealing comment from yesterday, here are a couple of simulations that I prepared a few years ago and have used in the past in the context of a computational physics course:
+- Simulated Annealing: <http://www.compadre.org/osp/items/detail.cfm?ID=11538>
+- Diffusion Limited Aggregation: <http://www.compadre.org/osp/items/detail.cfm?ID=11536>
+Both of these can be downloaded as executable JAR files and as source code (created with ""EJS"" or ""Easy Java Simulations"")",U1YJ38A8K,,0,advanced_thermal,TRUE
+4/19/17,8:02:36,U1YEMA4BA,,"In response to the simulated annealing comment from yesterday, here are a couple of simulations that I prepared a few years ago and have used in the past in the context of a computational physics course:
+- Simulated Annealing: <http://www.compadre.org/osp/items/detail.cfm?ID=11538>
+- Diffusion Limited Aggregation: <http://www.compadre.org/osp/items/detail.cfm?ID=11536>
+Both of these can be downloaded as executable JAR files and as source code (created with ""EJS"" or ""Easy Java Simulations"")",U1YKKMTFE,,0,advanced_thermal,TRUE
+4/19/17,8:02:36,U1YEMA4BA,,"In response to the simulated annealing comment from yesterday, here are a couple of simulations that I prepared a few years ago and have used in the past in the context of a computational physics course:
+- Simulated Annealing: <http://www.compadre.org/osp/items/detail.cfm?ID=11538>
+- Diffusion Limited Aggregation: <http://www.compadre.org/osp/items/detail.cfm?ID=11536>
+Both of these can be downloaded as executable JAR files and as source code (created with ""EJS"" or ""Easy Java Simulations"")",U1YKN36HF,,0,advanced_thermal,TRUE
+4/19/17,8:02:36,U1YEMA4BA,,"In response to the simulated annealing comment from yesterday, here are a couple of simulations that I prepared a few years ago and have used in the past in the context of a computational physics course:
+- Simulated Annealing: <http://www.compadre.org/osp/items/detail.cfm?ID=11538>
+- Diffusion Limited Aggregation: <http://www.compadre.org/osp/items/detail.cfm?ID=11536>
+Both of these can be downloaded as executable JAR files and as source code (created with ""EJS"" or ""Easy Java Simulations"")",U1YKW1FKR,,0,advanced_thermal,TRUE
+4/19/17,8:02:36,U1YEMA4BA,,"In response to the simulated annealing comment from yesterday, here are a couple of simulations that I prepared a few years ago and have used in the past in the context of a computational physics course:
+- Simulated Annealing: <http://www.compadre.org/osp/items/detail.cfm?ID=11538>
+- Diffusion Limited Aggregation: <http://www.compadre.org/osp/items/detail.cfm?ID=11536>
+Both of these can be downloaded as executable JAR files and as source code (created with ""EJS"" or ""Easy Java Simulations"")",U1YKWAY31,,0,advanced_thermal,TRUE
+4/19/17,8:02:36,U1YEMA4BA,,"In response to the simulated annealing comment from yesterday, here are a couple of simulations that I prepared a few years ago and have used in the past in the context of a computational physics course:
+- Simulated Annealing: <http://www.compadre.org/osp/items/detail.cfm?ID=11538>
+- Diffusion Limited Aggregation: <http://www.compadre.org/osp/items/detail.cfm?ID=11536>
+Both of these can be downloaded as executable JAR files and as source code (created with ""EJS"" or ""Easy Java Simulations"")",U1YL4RMRQ,,0,advanced_thermal,TRUE
+4/19/17,8:02:36,U1YEMA4BA,,"In response to the simulated annealing comment from yesterday, here are a couple of simulations that I prepared a few years ago and have used in the past in the context of a computational physics course:
+- Simulated Annealing: <http://www.compadre.org/osp/items/detail.cfm?ID=11538>
+- Diffusion Limited Aggregation: <http://www.compadre.org/osp/items/detail.cfm?ID=11536>
+Both of these can be downloaded as executable JAR files and as source code (created with ""EJS"" or ""Easy Java Simulations"")",U243ZCBUZ,,0,advanced_thermal,TRUE
+4/19/17,8:02:36,U1YEMA4BA,,"In response to the simulated annealing comment from yesterday, here are a couple of simulations that I prepared a few years ago and have used in the past in the context of a computational physics course:
+- Simulated Annealing: <http://www.compadre.org/osp/items/detail.cfm?ID=11538>
+- Diffusion Limited Aggregation: <http://www.compadre.org/osp/items/detail.cfm?ID=11536>
+Both of these can be downloaded as executable JAR files and as source code (created with ""EJS"" or ""Easy Java Simulations"")",U47FDDCBV,,0,advanced_thermal,TRUE
+4/19/17,8:02:36,U1YEMA4BA,,"In response to the simulated annealing comment from yesterday, here are a couple of simulations that I prepared a few years ago and have used in the past in the context of a computational physics course:
+- Simulated Annealing: <http://www.compadre.org/osp/items/detail.cfm?ID=11538>
+- Diffusion Limited Aggregation: <http://www.compadre.org/osp/items/detail.cfm?ID=11536>
+Both of these can be downloaded as executable JAR files and as source code (created with ""EJS"" or ""Easy Java Simulations"")",U4AG8DTQA,,0,advanced_thermal,TRUE
+4/19/17,12:39:59,U1YKN36HF,,"That is great, <!channel>  Thank you for sharing. I will be in full class development mode this summer.",U1YCYCK61,,0,advanced_thermal,TRUE
+4/19/17,12:39:59,U1YKN36HF,,"That is great, <!channel>  Thank you for sharing. I will be in full class development mode this summer.",U1YEMA4BA,,0,advanced_thermal,TRUE
+4/19/17,12:39:59,U1YKN36HF,,"That is great, <!channel>  Thank you for sharing. I will be in full class development mode this summer.",U1YJ38A8K,,0,advanced_thermal,TRUE
+4/19/17,12:39:59,U1YKN36HF,,"That is great, <!channel>  Thank you for sharing. I will be in full class development mode this summer.",U1YKKMTFE,,0,advanced_thermal,TRUE
+4/19/17,12:39:59,U1YKN36HF,,"That is great, <!channel>  Thank you for sharing. I will be in full class development mode this summer.",U1YKW1FKR,,0,advanced_thermal,TRUE
+4/19/17,12:39:59,U1YKN36HF,,"That is great, <!channel>  Thank you for sharing. I will be in full class development mode this summer.",U1YKWAY31,,0,advanced_thermal,TRUE
+4/19/17,12:39:59,U1YKN36HF,,"That is great, <!channel>  Thank you for sharing. I will be in full class development mode this summer.",U1YL4RMRQ,,0,advanced_thermal,TRUE
+4/19/17,12:39:59,U1YKN36HF,,"That is great, <!channel>  Thank you for sharing. I will be in full class development mode this summer.",U243ZCBUZ,,0,advanced_thermal,TRUE
+4/19/17,12:39:59,U1YKN36HF,,"That is great, <!channel>  Thank you for sharing. I will be in full class development mode this summer.",U47FDDCBV,,0,advanced_thermal,TRUE
+4/19/17,12:39:59,U1YKN36HF,,"That is great, <!channel>  Thank you for sharing. I will be in full class development mode this summer.",U4AG8DTQA,,0,advanced_thermal,TRUE
+4/19/17,13:33:53,U1YEMA4BA,,"Regarding Schroder's book: Initially, I was bothered by the fact that he didn't introduce the Boltzmann distribution until Ch. 6; but I have gotten used to that.  This semester I did everything pretty much in order it's presented in the book, except that I skipped most of Ch. 5 (which is a mixture of chemistry &amp; materials science), and after Ch. 6 (the Boltzmann chapter), we did some Molecular Dynamics &amp; Monte Carlo before finishing with Ch. 7 (quantum statistics).",U1YCYCK61,,0,advanced_thermal,TRUE
+4/19/17,13:33:53,U1YEMA4BA,,"Regarding Schroder's book: Initially, I was bothered by the fact that he didn't introduce the Boltzmann distribution until Ch. 6; but I have gotten used to that.  This semester I did everything pretty much in order it's presented in the book, except that I skipped most of Ch. 5 (which is a mixture of chemistry &amp; materials science), and after Ch. 6 (the Boltzmann chapter), we did some Molecular Dynamics &amp; Monte Carlo before finishing with Ch. 7 (quantum statistics).",U1YJ38A8K,,0,advanced_thermal,TRUE
+4/19/17,13:33:53,U1YEMA4BA,,"Regarding Schroder's book: Initially, I was bothered by the fact that he didn't introduce the Boltzmann distribution until Ch. 6; but I have gotten used to that.  This semester I did everything pretty much in order it's presented in the book, except that I skipped most of Ch. 5 (which is a mixture of chemistry &amp; materials science), and after Ch. 6 (the Boltzmann chapter), we did some Molecular Dynamics &amp; Monte Carlo before finishing with Ch. 7 (quantum statistics).",U1YKKMTFE,,0,advanced_thermal,TRUE
+4/19/17,13:33:53,U1YEMA4BA,,"Regarding Schroder's book: Initially, I was bothered by the fact that he didn't introduce the Boltzmann distribution until Ch. 6; but I have gotten used to that.  This semester I did everything pretty much in order it's presented in the book, except that I skipped most of Ch. 5 (which is a mixture of chemistry &amp; materials science), and after Ch. 6 (the Boltzmann chapter), we did some Molecular Dynamics &amp; Monte Carlo before finishing with Ch. 7 (quantum statistics).",U1YKN36HF,,0,advanced_thermal,TRUE
+4/19/17,13:33:53,U1YEMA4BA,,"Regarding Schroder's book: Initially, I was bothered by the fact that he didn't introduce the Boltzmann distribution until Ch. 6; but I have gotten used to that.  This semester I did everything pretty much in order it's presented in the book, except that I skipped most of Ch. 5 (which is a mixture of chemistry &amp; materials science), and after Ch. 6 (the Boltzmann chapter), we did some Molecular Dynamics &amp; Monte Carlo before finishing with Ch. 7 (quantum statistics).",U1YKW1FKR,,0,advanced_thermal,TRUE
+4/19/17,13:33:53,U1YEMA4BA,,"Regarding Schroder's book: Initially, I was bothered by the fact that he didn't introduce the Boltzmann distribution until Ch. 6; but I have gotten used to that.  This semester I did everything pretty much in order it's presented in the book, except that I skipped most of Ch. 5 (which is a mixture of chemistry &amp; materials science), and after Ch. 6 (the Boltzmann chapter), we did some Molecular Dynamics &amp; Monte Carlo before finishing with Ch. 7 (quantum statistics).",U1YKWAY31,,0,advanced_thermal,TRUE
+4/19/17,13:33:53,U1YEMA4BA,,"Regarding Schroder's book: Initially, I was bothered by the fact that he didn't introduce the Boltzmann distribution until Ch. 6; but I have gotten used to that.  This semester I did everything pretty much in order it's presented in the book, except that I skipped most of Ch. 5 (which is a mixture of chemistry &amp; materials science), and after Ch. 6 (the Boltzmann chapter), we did some Molecular Dynamics &amp; Monte Carlo before finishing with Ch. 7 (quantum statistics).",U1YL4RMRQ,,0,advanced_thermal,TRUE
+4/19/17,13:33:53,U1YEMA4BA,,"Regarding Schroder's book: Initially, I was bothered by the fact that he didn't introduce the Boltzmann distribution until Ch. 6; but I have gotten used to that.  This semester I did everything pretty much in order it's presented in the book, except that I skipped most of Ch. 5 (which is a mixture of chemistry &amp; materials science), and after Ch. 6 (the Boltzmann chapter), we did some Molecular Dynamics &amp; Monte Carlo before finishing with Ch. 7 (quantum statistics).",U243ZCBUZ,,0,advanced_thermal,TRUE
+4/19/17,13:33:53,U1YEMA4BA,,"Regarding Schroder's book: Initially, I was bothered by the fact that he didn't introduce the Boltzmann distribution until Ch. 6; but I have gotten used to that.  This semester I did everything pretty much in order it's presented in the book, except that I skipped most of Ch. 5 (which is a mixture of chemistry &amp; materials science), and after Ch. 6 (the Boltzmann chapter), we did some Molecular Dynamics &amp; Monte Carlo before finishing with Ch. 7 (quantum statistics).",U47FDDCBV,,0,advanced_thermal,TRUE
+4/19/17,13:33:53,U1YEMA4BA,,"Regarding Schroder's book: Initially, I was bothered by the fact that he didn't introduce the Boltzmann distribution until Ch. 6; but I have gotten used to that.  This semester I did everything pretty much in order it's presented in the book, except that I skipped most of Ch. 5 (which is a mixture of chemistry &amp; materials science), and after Ch. 6 (the Boltzmann chapter), we did some Molecular Dynamics &amp; Monte Carlo before finishing with Ch. 7 (quantum statistics).",U4AG8DTQA,,0,advanced_thermal,TRUE
+4/19/17,14:33:45,U243ZCBUZ,,"One argument for Thermo first is that that field is based in observation and experimental results. Stat Mech is only as good as its ability to reproduce the results that we get from Thermo. 
+
+That being said, I have an aversion to the ""classical"" definition of entropy; you either get the less-than-helpful definition ""entropy is disorder"" or the esoteric mathematical definition involving perfect differentials and closed-path integrals. So, I'm happy that while Schroeder begins with classical thermodynamics, he postpones the discussion of classical entropy until after the statistical treatment. (And many of my current students have told me that they find the statistical entropy much more palatable than the oft-used ""disorder"" definition)",U1YCYCK61,,0,advanced_thermal,TRUE
+4/19/17,14:33:45,U243ZCBUZ,,"One argument for Thermo first is that that field is based in observation and experimental results. Stat Mech is only as good as its ability to reproduce the results that we get from Thermo. 
+
+That being said, I have an aversion to the ""classical"" definition of entropy; you either get the less-than-helpful definition ""entropy is disorder"" or the esoteric mathematical definition involving perfect differentials and closed-path integrals. So, I'm happy that while Schroeder begins with classical thermodynamics, he postpones the discussion of classical entropy until after the statistical treatment. (And many of my current students have told me that they find the statistical entropy much more palatable than the oft-used ""disorder"" definition)",U1YEMA4BA,,0,advanced_thermal,TRUE
+4/19/17,14:33:45,U243ZCBUZ,,"One argument for Thermo first is that that field is based in observation and experimental results. Stat Mech is only as good as its ability to reproduce the results that we get from Thermo. 
+
+That being said, I have an aversion to the ""classical"" definition of entropy; you either get the less-than-helpful definition ""entropy is disorder"" or the esoteric mathematical definition involving perfect differentials and closed-path integrals. So, I'm happy that while Schroeder begins with classical thermodynamics, he postpones the discussion of classical entropy until after the statistical treatment. (And many of my current students have told me that they find the statistical entropy much more palatable than the oft-used ""disorder"" definition)",U1YJ38A8K,,0,advanced_thermal,TRUE
+4/19/17,14:33:45,U243ZCBUZ,,"One argument for Thermo first is that that field is based in observation and experimental results. Stat Mech is only as good as its ability to reproduce the results that we get from Thermo. 
+
+That being said, I have an aversion to the ""classical"" definition of entropy; you either get the less-than-helpful definition ""entropy is disorder"" or the esoteric mathematical definition involving perfect differentials and closed-path integrals. So, I'm happy that while Schroeder begins with classical thermodynamics, he postpones the discussion of classical entropy until after the statistical treatment. (And many of my current students have told me that they find the statistical entropy much more palatable than the oft-used ""disorder"" definition)",U1YKKMTFE,,0,advanced_thermal,TRUE
+4/19/17,14:33:45,U243ZCBUZ,,"One argument for Thermo first is that that field is based in observation and experimental results. Stat Mech is only as good as its ability to reproduce the results that we get from Thermo. 
+
+That being said, I have an aversion to the ""classical"" definition of entropy; you either get the less-than-helpful definition ""entropy is disorder"" or the esoteric mathematical definition involving perfect differentials and closed-path integrals. So, I'm happy that while Schroeder begins with classical thermodynamics, he postpones the discussion of classical entropy until after the statistical treatment. (And many of my current students have told me that they find the statistical entropy much more palatable than the oft-used ""disorder"" definition)",U1YKN36HF,,0,advanced_thermal,TRUE
+4/19/17,14:33:45,U243ZCBUZ,,"One argument for Thermo first is that that field is based in observation and experimental results. Stat Mech is only as good as its ability to reproduce the results that we get from Thermo. 
+
+That being said, I have an aversion to the ""classical"" definition of entropy; you either get the less-than-helpful definition ""entropy is disorder"" or the esoteric mathematical definition involving perfect differentials and closed-path integrals. So, I'm happy that while Schroeder begins with classical thermodynamics, he postpones the discussion of classical entropy until after the statistical treatment. (And many of my current students have told me that they find the statistical entropy much more palatable than the oft-used ""disorder"" definition)",U1YKW1FKR,,0,advanced_thermal,TRUE
+4/19/17,14:33:45,U243ZCBUZ,,"One argument for Thermo first is that that field is based in observation and experimental results. Stat Mech is only as good as its ability to reproduce the results that we get from Thermo. 
+
+That being said, I have an aversion to the ""classical"" definition of entropy; you either get the less-than-helpful definition ""entropy is disorder"" or the esoteric mathematical definition involving perfect differentials and closed-path integrals. So, I'm happy that while Schroeder begins with classical thermodynamics, he postpones the discussion of classical entropy until after the statistical treatment. (And many of my current students have told me that they find the statistical entropy much more palatable than the oft-used ""disorder"" definition)",U1YKWAY31,,0,advanced_thermal,TRUE
+4/19/17,14:33:45,U243ZCBUZ,,"One argument for Thermo first is that that field is based in observation and experimental results. Stat Mech is only as good as its ability to reproduce the results that we get from Thermo. 
+
+That being said, I have an aversion to the ""classical"" definition of entropy; you either get the less-than-helpful definition ""entropy is disorder"" or the esoteric mathematical definition involving perfect differentials and closed-path integrals. So, I'm happy that while Schroeder begins with classical thermodynamics, he postpones the discussion of classical entropy until after the statistical treatment. (And many of my current students have told me that they find the statistical entropy much more palatable than the oft-used ""disorder"" definition)",U1YL4RMRQ,,0,advanced_thermal,TRUE
+4/19/17,14:33:45,U243ZCBUZ,,"One argument for Thermo first is that that field is based in observation and experimental results. Stat Mech is only as good as its ability to reproduce the results that we get from Thermo. 
+
+That being said, I have an aversion to the ""classical"" definition of entropy; you either get the less-than-helpful definition ""entropy is disorder"" or the esoteric mathematical definition involving perfect differentials and closed-path integrals. So, I'm happy that while Schroeder begins with classical thermodynamics, he postpones the discussion of classical entropy until after the statistical treatment. (And many of my current students have told me that they find the statistical entropy much more palatable than the oft-used ""disorder"" definition)",U47FDDCBV,,0,advanced_thermal,TRUE
+4/19/17,14:33:45,U243ZCBUZ,,"One argument for Thermo first is that that field is based in observation and experimental results. Stat Mech is only as good as its ability to reproduce the results that we get from Thermo. 
+
+That being said, I have an aversion to the ""classical"" definition of entropy; you either get the less-than-helpful definition ""entropy is disorder"" or the esoteric mathematical definition involving perfect differentials and closed-path integrals. So, I'm happy that while Schroeder begins with classical thermodynamics, he postpones the discussion of classical entropy until after the statistical treatment. (And many of my current students have told me that they find the statistical entropy much more palatable than the oft-used ""disorder"" definition)",U4AG8DTQA,,0,advanced_thermal,TRUE
+4/19/17,14:49:40,U1YEMA4BA,,"Agreed, roughly speaking I would say that ""Schroeder does do stats before thermo"".  Chapter 1 basically introduces the various terminology and tools of thermal physics (PV diagrams, work, etc.), but then it switches to stat mech (in a very concrete and computational way) for Chapters 2 &amp; 3 before coming back to do thermal physics in detail.",U1YCYCK61,,0,advanced_thermal,TRUE
+4/19/17,14:49:40,U1YEMA4BA,,"Agreed, roughly speaking I would say that ""Schroeder does do stats before thermo"".  Chapter 1 basically introduces the various terminology and tools of thermal physics (PV diagrams, work, etc.), but then it switches to stat mech (in a very concrete and computational way) for Chapters 2 &amp; 3 before coming back to do thermal physics in detail.",U1YJ38A8K,,0,advanced_thermal,TRUE
+4/19/17,14:49:40,U1YEMA4BA,,"Agreed, roughly speaking I would say that ""Schroeder does do stats before thermo"".  Chapter 1 basically introduces the various terminology and tools of thermal physics (PV diagrams, work, etc.), but then it switches to stat mech (in a very concrete and computational way) for Chapters 2 &amp; 3 before coming back to do thermal physics in detail.",U1YKKMTFE,,0,advanced_thermal,TRUE
+4/19/17,14:49:40,U1YEMA4BA,,"Agreed, roughly speaking I would say that ""Schroeder does do stats before thermo"".  Chapter 1 basically introduces the various terminology and tools of thermal physics (PV diagrams, work, etc.), but then it switches to stat mech (in a very concrete and computational way) for Chapters 2 &amp; 3 before coming back to do thermal physics in detail.",U1YKN36HF,,0,advanced_thermal,TRUE
+4/19/17,14:49:40,U1YEMA4BA,,"Agreed, roughly speaking I would say that ""Schroeder does do stats before thermo"".  Chapter 1 basically introduces the various terminology and tools of thermal physics (PV diagrams, work, etc.), but then it switches to stat mech (in a very concrete and computational way) for Chapters 2 &amp; 3 before coming back to do thermal physics in detail.",U1YKW1FKR,,0,advanced_thermal,TRUE
+4/19/17,14:49:40,U1YEMA4BA,,"Agreed, roughly speaking I would say that ""Schroeder does do stats before thermo"".  Chapter 1 basically introduces the various terminology and tools of thermal physics (PV diagrams, work, etc.), but then it switches to stat mech (in a very concrete and computational way) for Chapters 2 &amp; 3 before coming back to do thermal physics in detail.",U1YKWAY31,,0,advanced_thermal,TRUE
+4/19/17,14:49:40,U1YEMA4BA,,"Agreed, roughly speaking I would say that ""Schroeder does do stats before thermo"".  Chapter 1 basically introduces the various terminology and tools of thermal physics (PV diagrams, work, etc.), but then it switches to stat mech (in a very concrete and computational way) for Chapters 2 &amp; 3 before coming back to do thermal physics in detail.",U1YL4RMRQ,,0,advanced_thermal,TRUE
+4/19/17,14:49:40,U1YEMA4BA,,"Agreed, roughly speaking I would say that ""Schroeder does do stats before thermo"".  Chapter 1 basically introduces the various terminology and tools of thermal physics (PV diagrams, work, etc.), but then it switches to stat mech (in a very concrete and computational way) for Chapters 2 &amp; 3 before coming back to do thermal physics in detail.",U243ZCBUZ,,0,advanced_thermal,TRUE
+4/19/17,14:49:40,U1YEMA4BA,,"Agreed, roughly speaking I would say that ""Schroeder does do stats before thermo"".  Chapter 1 basically introduces the various terminology and tools of thermal physics (PV diagrams, work, etc.), but then it switches to stat mech (in a very concrete and computational way) for Chapters 2 &amp; 3 before coming back to do thermal physics in detail.",U47FDDCBV,,0,advanced_thermal,TRUE
+4/19/17,14:49:40,U1YEMA4BA,,"Agreed, roughly speaking I would say that ""Schroeder does do stats before thermo"".  Chapter 1 basically introduces the various terminology and tools of thermal physics (PV diagrams, work, etc.), but then it switches to stat mech (in a very concrete and computational way) for Chapters 2 &amp; 3 before coming back to do thermal physics in detail.",U4AG8DTQA,,0,advanced_thermal,TRUE
+4/29/17,13:50:42,U57AJGYMD,,<@U57AJGYMD> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+4/29/17,13:50:42,U57AJGYMD,,<@U57AJGYMD> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+4/29/17,13:50:42,U57AJGYMD,,<@U57AJGYMD> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+4/29/17,13:50:42,U57AJGYMD,,<@U57AJGYMD> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+4/29/17,13:50:42,U57AJGYMD,,<@U57AJGYMD> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+4/29/17,13:50:42,U57AJGYMD,,<@U57AJGYMD> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+4/29/17,13:50:42,U57AJGYMD,,<@U57AJGYMD> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+4/29/17,13:50:42,U57AJGYMD,,<@U57AJGYMD> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+4/29/17,13:50:42,U57AJGYMD,,<@U57AJGYMD> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+4/29/17,13:50:42,U57AJGYMD,,<@U57AJGYMD> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+4/29/17,13:50:42,U57AJGYMD,,<@U57AJGYMD> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+7/12/17,17:33:54,U5B3773AP,,<@U5B3773AP> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+7/12/17,17:33:54,U5B3773AP,,<@U5B3773AP> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+7/12/17,17:33:54,U5B3773AP,,<@U5B3773AP> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+7/12/17,17:33:54,U5B3773AP,,<@U5B3773AP> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+7/12/17,17:33:54,U5B3773AP,,<@U5B3773AP> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+7/12/17,17:33:54,U5B3773AP,,<@U5B3773AP> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+7/12/17,17:33:54,U5B3773AP,,<@U5B3773AP> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+7/12/17,17:33:54,U5B3773AP,,<@U5B3773AP> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+7/12/17,17:33:54,U5B3773AP,,<@U5B3773AP> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+7/12/17,17:33:54,U5B3773AP,,<@U5B3773AP> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+7/12/17,17:33:54,U5B3773AP,,<@U5B3773AP> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+7/12/17,17:33:54,U5B3773AP,,<@U5B3773AP> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+7/20/17,12:04:46,U5BA8P4NP,,<@U5BA8P4NP> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+7/20/17,12:04:46,U5BA8P4NP,,<@U5BA8P4NP> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+7/20/17,12:04:46,U5BA8P4NP,,<@U5BA8P4NP> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+7/20/17,12:04:46,U5BA8P4NP,,<@U5BA8P4NP> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+7/20/17,12:04:46,U5BA8P4NP,,<@U5BA8P4NP> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+7/20/17,12:04:46,U5BA8P4NP,,<@U5BA8P4NP> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+7/20/17,12:04:46,U5BA8P4NP,,<@U5BA8P4NP> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+7/20/17,12:04:46,U5BA8P4NP,,<@U5BA8P4NP> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+7/20/17,12:04:46,U5BA8P4NP,,<@U5BA8P4NP> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+7/20/17,12:04:46,U5BA8P4NP,,<@U5BA8P4NP> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+7/20/17,12:04:46,U5BA8P4NP,,<@U5BA8P4NP> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+7/20/17,12:04:46,U5BA8P4NP,,<@U5BA8P4NP> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+7/20/17,12:04:46,U5BA8P4NP,,<@U5BA8P4NP> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+7/26/17,13:30:23,U6CFMB7PC,,<@U6CFMB7PC> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+7/26/17,13:30:23,U6CFMB7PC,,<@U6CFMB7PC> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+7/26/17,13:30:23,U6CFMB7PC,,<@U6CFMB7PC> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+7/26/17,13:30:23,U6CFMB7PC,,<@U6CFMB7PC> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+7/26/17,13:30:23,U6CFMB7PC,,<@U6CFMB7PC> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+7/26/17,13:30:23,U6CFMB7PC,,<@U6CFMB7PC> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+7/26/17,13:30:23,U6CFMB7PC,,<@U6CFMB7PC> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+7/26/17,13:30:23,U6CFMB7PC,,<@U6CFMB7PC> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+7/26/17,13:30:23,U6CFMB7PC,,<@U6CFMB7PC> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+7/26/17,13:30:23,U6CFMB7PC,,<@U6CFMB7PC> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+7/26/17,13:30:23,U6CFMB7PC,,<@U6CFMB7PC> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+7/26/17,13:30:23,U6CFMB7PC,,<@U6CFMB7PC> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+7/26/17,13:30:23,U6CFMB7PC,,<@U6CFMB7PC> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+7/26/17,13:30:23,U6CFMB7PC,,<@U6CFMB7PC> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+9/19/17,15:14:06,U76LDPXC7,,<@U76LDPXC7> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U1YCYCK61,,0,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U1YEMA4BA,,0,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U1YJ38A8K,,0,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U1YKKMTFE,,0,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U1YKW1FKR,,0,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U1YKWAY31,,0,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U1YL4RMRQ,,0,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U243ZCBUZ,,0,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U47FDDCBV,,0,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U4AG8DTQA,,0,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U57AJGYMD,,0,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U5B3773AP,,0,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U5BA8P4NP,,0,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U6CFMB7PC,,0,advanced_thermal,TRUE
+2/6/18,14:39:48,U1YKN36HF,,"Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?
+Citation:
+H. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https://www.compadre.org/Repository/document/ServeFile.cfm?ID=8624&amp;DocID=996>).",U76LDPXC7,,0,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U1YCYCK61,,left,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U1YEMA4BA,,left,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U1YJ38A8K,,left,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U1YKN36HF,,left,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U1YKW1FKR,,left,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U1YKWAY31,,left,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U1YL4RMRQ,,left,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U243ZCBUZ,,left,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U47FDDCBV,,left,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U4AG8DTQA,,left,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U57AJGYMD,,left,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U5B3773AP,,left,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U5BA8P4NP,,left,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U6CFMB7PC,,left,advanced_thermal,TRUE
+2/6/18,15:42:20,U1YKKMTFE,,<@U1YKKMTFE> has left the channel,U76LDPXC7,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U1YEMA4BA,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U1YJ38A8K,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U1YKKMTFE,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U1YKN36HF,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U1YKW1FKR,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U1YKWAY31,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U1YL4RMRQ,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U243ZCBUZ,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U47FDDCBV,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U4AG8DTQA,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U57AJGYMD,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U5B3773AP,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U5BA8P4NP,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U6CFMB7PC,,left,advanced_thermal,TRUE
+2/6/18,16:46:19,U1YCYCK61,,<@U1YCYCK61> has left the channel,U76LDPXC7,,left,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U1YCYCK61,,0,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U1YJ38A8K,,0,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U1YKKMTFE,,0,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U1YKN36HF,,0,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U1YKW1FKR,,0,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U1YKWAY31,,0,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U1YL4RMRQ,,0,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U243ZCBUZ,,0,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U47FDDCBV,,0,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U4AG8DTQA,,0,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U57AJGYMD,,0,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U5B3773AP,,0,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U5BA8P4NP,,0,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U6CFMB7PC,,0,advanced_thermal,TRUE
+2/6/18,21:27:00,U1YEMA4BA,,"To follow up on the whole ""dimensionless variables"" thing: I find that there is a good opportunity to talk about the concept of ""dimensionless variables"" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The ""magic"" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",U76LDPXC7,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U1YCYCK61,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U1YEMA4BA,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U1YJ38A8K,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U1YKKMTFE,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U1YKW1FKR,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U1YKWAY31,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U1YL4RMRQ,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U243ZCBUZ,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U47FDDCBV,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U4AG8DTQA,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U57AJGYMD,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U5B3773AP,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U5BA8P4NP,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U6CFMB7PC,,0,advanced_thermal,TRUE
+2/6/18,21:33:04,U1YKN36HF,,"Ah, you rock! Thanks.",U76LDPXC7,,0,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+5/17/18,22:21:12,U1YKN5ZV5,,<@U1YKN5ZV5> has joined the channel,U76LDPXC7,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U1YKN5ZV5,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+7/14/18,21:05:23,UBQC15LS1,,<@UBQC15LS1> has joined the channel,U76LDPXC7,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U1YKN5ZV5,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,U76LDPXC7,,joined,advanced_thermal,TRUE
+7/15/18,20:45:20,UBMTZF0UA,,<@UBMTZF0UA> has joined the channel,UBQC15LS1,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U1YKN5ZV5,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,U76LDPXC7,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,UBMTZF0UA,,joined,advanced_thermal,TRUE
+7/16/18,19:47:15,UBN4DAZ9P,,<@UBN4DAZ9P> has joined the channel,UBQC15LS1,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U1YKN5ZV5,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,U76LDPXC7,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,UBMTZF0UA,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,UBN4DAZ9P,,joined,advanced_thermal,TRUE
+7/18/18,8:36:38,U1YKH1T96,,<@U1YKH1T96> has joined the channel,UBQC15LS1,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U1YKH1T96,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U1YKN5ZV5,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,U76LDPXC7,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,UBMTZF0UA,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,UBN4DAZ9P,,joined,advanced_thermal,TRUE
+11/30/18,12:05:35,UECH6FHL2,,<@UECH6FHL2> has joined the channel,UBQC15LS1,,joined,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U1YCYCK61,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U1YEMA4BA,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U1YJ38A8K,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U1YKH1T96,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U1YKKMTFE,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U1YKN36HF,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U1YKN5ZV5,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U1YKW1FKR,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U1YKWAY31,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U1YL4RMRQ,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U243ZCBUZ,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U47FDDCBV,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U4AG8DTQA,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U57AJGYMD,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U5B3773AP,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U5BA8P4NP,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U6CFMB7PC,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,U76LDPXC7,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,UBMTZF0UA,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,UBN4DAZ9P,,left,advanced_thermal,TRUE
+12/19/18,11:06:10,UECH6FHL2,,<@UECH6FHL2> has left the channel,UBQC15LS1,,left,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U1YKH1T96,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U1YKN5ZV5,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,U76LDPXC7,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,UBMTZF0UA,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,UBN4DAZ9P,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,UBQC15LS1,,joined,advanced_thermal,TRUE
+7/17/19,6:08:32,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,UECH6FHL2,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U1YKH1T96,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U1YKN5ZV5,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,U76LDPXC7,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,UBMTZF0UA,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,UBN4DAZ9P,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,UBQC15LS1,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,UECH6FHL2,,joined,advanced_thermal,TRUE
+9/10/19,17:36:00,UN9GWT6MD,,<@UN9GWT6MD> has joined the channel,UL1M8QLPJ,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U1YKH1T96,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U1YKN5ZV5,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,U76LDPXC7,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,UBMTZF0UA,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,UBN4DAZ9P,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,UBQC15LS1,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,UECH6FHL2,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,UL1M8QLPJ,,joined,advanced_thermal,TRUE
+5/6/20,14:56:51,UKRBD8S0J,,<@UKRBD8S0J> has joined the channel,UN9GWT6MD,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U1YKH1T96,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U1YKN5ZV5,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U76LDPXC7,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,UBMTZF0UA,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,UBN4DAZ9P,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,UBQC15LS1,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,UECH6FHL2,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,UKRBD8S0J,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,UL1M8QLPJ,,joined,advanced_thermal,TRUE
+8/26/20,15:12:26,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,UN9GWT6MD,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U1YKH1T96,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U1YKN5ZV5,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U76LDPXC7,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,UBMTZF0UA,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,UBN4DAZ9P,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,UBQC15LS1,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,UECH6FHL2,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,UKRBD8S0J,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,UL1M8QLPJ,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,UN9GWT6MD,,joined,advanced_thermal,TRUE
+9/2/20,18:34:35,U01APQC8LLQ,,<@U01APQC8LLQ> has joined the channel,U010HJ8QCDB,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U1YKH1T96,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U1YKN5ZV5,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U76LDPXC7,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,UBMTZF0UA,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,UBN4DAZ9P,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,UBQC15LS1,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,UECH6FHL2,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,UKRBD8S0J,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,UL1M8QLPJ,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,UN9GWT6MD,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U010HJ8QCDB,,joined,advanced_thermal,TRUE
+9/3/20,17:58:55,U0166P9U1M1,,<@U0166P9U1M1> has joined the channel,U01APQC8LLQ,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U1YKH1T96,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U1YKN5ZV5,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U76LDPXC7,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,UBMTZF0UA,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,UBN4DAZ9P,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,UBQC15LS1,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,UECH6FHL2,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,UKRBD8S0J,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,UL1M8QLPJ,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,UN9GWT6MD,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U010HJ8QCDB,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U0166P9U1M1,,joined,advanced_thermal,TRUE
+12/16/20,10:51:10,U01GJ5KFDST,,<@U01GJ5KFDST> has joined the channel,U01APQC8LLQ,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U1YCYCK61,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U1YEMA4BA,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U1YJ38A8K,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U1YKH1T96,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U1YKKMTFE,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U1YKN36HF,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U1YKN5ZV5,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U1YKW1FKR,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U1YKWAY31,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U1YL4RMRQ,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U243ZCBUZ,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U47FDDCBV,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U4AG8DTQA,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U57AJGYMD,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U5B3773AP,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U5BA8P4NP,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U6CFMB7PC,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U76LDPXC7,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,UBMTZF0UA,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,UBN4DAZ9P,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,UBQC15LS1,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,UECH6FHL2,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,UKRBD8S0J,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,UL1M8QLPJ,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,UN9GWT6MD,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U010HJ8QCDB,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U0166P9U1M1,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U01APQC8LLQ,,joined,advanced_thermal,TRUE
+6/3/21,18:29:24,U023WAPTURK,,<@U023WAPTURK> has joined the channel,U01GJ5KFDST,,joined,advanced_thermal,TRUE

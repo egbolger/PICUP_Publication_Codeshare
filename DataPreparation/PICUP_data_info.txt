@@ -1,0 +1,112 @@
+This is a compiled list of the features that are accounted for in the JsontoCsv.py file for building the Slack PICUP Edge List. 
+
+The dataframe contains the following columns: Date, Time, User_handle, Display_name, Message, @, @_disp_name, Communication_type, Channel_name, Reply_flag, Reply_count, Reply_list. 
+
+
+General:
+    - As explained below, each message is it's own entry in the new df: 'df_out'. 
+    - If the message has mentioned users in it, there is an entry for each mentioned user, where the 'user_handle' is the user that sent the message and '@' is the user that was mentioned - all other information stays the same. 
+    - If the message was a reply to another message (in a thread), the '@' becomes the user that sent the original message. 
+    - Each reaction to a message is a new entry. For each reaction, the 'user_handle' is the user that used that emoji and the '@' is the user that sent the message with the reactions. This occurs for each emoji and for each user that reacts with that emoji. 
+
+File Handling: 
+    - We first set the path to where the data resides. 
+    - For each directory (channel), we read in each file (day of messages) in that directory in chronological order. We only keep the .json files that contain messages in them. We read in the .json file as a pandas dataframe. Each entry in the dataframe is an entry or message in that .json file. 
+    - Throughout the process below, each entry gets add as a new row(s) to 'df_out'. Once all the files are completed, we convert the dataframe to a csv file. 
+
+The NA situation:  
+    - In most cases below, we explicitly check if the attribute exists and if that attribute is not NaN. The NaN part is required! If one of the messages has a reply in the file for the day, the remaining messages will have 'replies' = 'NaN', if that message does not have any replies itself. This is not seen in the .json file, but is seen when you explicitly print each entry. 
+
+More information on Columns in Dataset:
+
+1. Date and Time: 
+    - Found from the timestamp ('ts') given on the message. 
+
+2. User_handle
+    - Reference to the user who sent the message. If the 'user' attribute is in the entry and it is not NaN, we use this as the user_handle. If this is not available, we check to see if it is available in the 'comment' attribute (eg. this user commented on this user's file). Otherwise, we set it to 'NaN'.
+
+3. Display_name
+    - The user_handle above is a userid given by slack. This field is to show the name as seen on Slack. 
+    - If the message has a 'user_profile' and the 'display_name' is available, we use that. Some users have an empty 'display_name' because the name displayed is their 'real_name', so in these cases we use 'real_name'. 
+        - If the message does not have a 'user_profile' (eg. messages about joining, leaving, etc), we pull the display_name from the 'users_df' (see Other Components). 
+            - If there is a 'user' attribute in entry, we use that userid to get the 'display_name' (eg. join, leave, etc), but if not, we use the userid in the 'comment' section of the entry (eg user commented on a file.)
+        - Essentially, we loop through all the entries in the dataframe, if the userid's match and there is a 'display_name', we take that, otherwise we take the 'real_name'. 
+            - This portion was written as a function and will be referenced in later sections as 'get_Display_Name'. 
+
+4. Message
+    - Taken from the 'text' portion of each entry. 
+    - If the message contained an uploaded file, we add the name and the title for each file uploaded in that message. 
+    - If the text of the message was blank, but there was an attachment attribute, we used the 'fallback' attribute of the attachment to create the text of the message (eg. some of the giphy messages, shared messages from another channel). If the message was not blank, the attachment was already included as a url in the body of the message. 
+
+5. @ and @_disp_name
+    - Three Categories:
+        - Neither Reply or Mention:
+            - If the message is not a reply and has no mentions or if it has one mention and it is the user that sent the message (eg. user join/leave/sharing file) --> '@' = "channel" and '@_disp_name' = "channel"
+        - Reply to:
+            - If the message is a reply to another message, it has a 'parent_user_id' of the user of the original message, which we save to 'replied_to_user'.
+        - Mentions: 
+            - We first loop through the content of each of the messages to determine if there was a user that was mentioned. Most of the time the mentioned user is of the form '<U#####>', however this is not always the case. The user could be mentioned by their 'display_name'. So, we use '@' as the starting character flag and '>' as one of the ending character flags.  (We use '<!' for the channel mentions.)
+                - Once we have found a starting character, we add a new entry to the list. We build the name of the mentioned user character by character to that entry of the list, until we reach an ending character. 
+            - Once we have the list of mentioned users, we keep each mentioned user once to avoid duplicate entries for the same message. 
+            - Then, we determine if they are actually users in our system. (Avoid mentions like @gmail, @1:30, @College.) If we added a space, we remove it. If it is a reference to 'channel', we keep it. If the first character is not "U", we check to see if it is in the list of 'display_name' or 'real_name' of the 'users_df'. If not, we remove it. 
+
+        - Adding Replies and Mentions to 'df_out':
+            - We loop through all the mentioned users:
+                - We first get the '@_disp_name':
+                    - If it is 'channel' the '@' name is 'channel'.
+                    - If the user is in the list of 'display_name' or 'real_name', we use that as the '@' value. 
+                    - Otherwise (if it is of the form U####), we use 'get_Display_Name' to find the display name. 
+                - If the user '@' themselves and there are other mentions in the list, we skip this add. 
+                - We check to see if the user we are adding is one that we are replying to (eg. in a reply thread the original user is '@''ed in the message). 
+                - We add each of these as a new row, with the mentioned user as '@_disp_name'. 
+            - If the mentioned users did not contain the 'replied_to_user' (or there were no mentions), we add that message as a new entry, with the 'replied_to_user' as the '@_disp_name'. 
+
+    - Thread_broadcast:
+        - The Slack API uses the 'subtype' flag of 'thread_broadcast' for messages that are in a thread, but the bot determines should be broadcast to the entire channel (https://api.slack.com/events/message/thread_broadcast#:~:text=The%20thread_broadcast%20message%20subtype%20is,contain%20attachments%20or%20message%20buttons.). In order for this to correctly be treated as a reply to the original user, we set the 'replied_to_user' to be the user of the root message, which is encaptured in the 'thread_broadcast' message. 
+            - We note that the reply is correctly accounted for in the list of replies for the original message. 
+            - In our dataset, it seems as those this only appears 12 times. 
+    
+6. Communication_type
+    - Most of these need to be filled in manually. 
+    - Here is what is already accounted for: joined, left, norms. 
+        - Some messages have a 'subtype' (see the Slack API: https://api.slack.com/events/message) and we use this to categorize the message. We use 'joined' for 'channel_join', 'left' for 'channel_leave', and 'norm' for 'channel_purpose', 'channel_name', 'channel_topic', 'channel_archive', and 'channel_unarchive'.
+            - If it has a 'subtype' and it is not one of these, it is left blank. If it doesn't have a 'subtype' is it left blank. 
+        - Also, the messages that are emojis are each encoded with the 'communication_type' as 'emoji'. 
+
+ 
+7. Channel_name
+    - Taken directly from the file name. Each file is contained in the folder of the channel name. 
+
+8. Reply_flag
+    - Once we have created the list of the users that replied to a message (see 'Reply_count and Reply_list'), we loop through the list to see if one of the repliers was the user who originally sent the message. If they did, we flag it with 'rep_flag = True' and break out of the loop. 
+    - This was to make it easier for manual adjusting when the reply was suppposed to be to the most recent user (or other user in the thread), rather than the user that sent the original message. More clearly, making the distincation between a user providing an addition to their original message or replying to another user that replied in their thread.
+
+9. Reply_count and Reply_list
+    - Check that there is a reply count in the entry and that it is not NaN.
+        - The 'reply_count' is a direct attribute of the message and is the number of replies to a message.
+        - We access the length of the 'replies' list in .json file for each entry. For each item in the 'replies' list, we add the user id to our list of replies: 'rep_list'. 
+            - Structure of .json file is: {"replies" : [{"user" : USERID, "ts" : TIMESTAMP}, {"user" : USERID, "ts" : TIMESTAMP}, etc]}
+        
+        
+Other Components:
+
+- Emojis/Reaction:
+    - Each reaction to a message is coded as a single row, with the '@' user as the user of the message that was reacted to. 
+    - The structure of these in the .json files is similar to replies - ({"reactions: [ {"name" : "str", "users" : []}, {"name" : "str", "users" : []}, etc]})
+        - We have a list of reactions from the .json file. For each reaction, we get the name of the emoji. Then, we loop through the list of users of that emoji and add an entry for each user for the current emoji. 
+            - This means the 'user_handle' becomes the user that reacted with an emoji and the '@' becomes the user that sent the message. 
+            - We set the 'communication_type' of each of these entries to be 'emoji'.
+
+- Users_df: 
+    - Built in 'UserProfile_Dictionary.py'
+    - In order to find the display names of the users for replies, mentions, and emojis usage, we needed to build a dataframe, since these attributes only contain the Slack given userid, not the 'display_name'. 
+        - We used the users.json file provided, where each entry is a 'user_profile' with information on each user. We loop through all the entries and create a dataframe of three columns: 'id', 'display_name', and 'real_name'. 
+        - We export it as a pickle file, to easily import into the original JsontoCsv.py converter file. 
+
+
+ITEMS TO CHECK IN THE EDGE LIST:
+
+1. If the Reply_flag is True, check the '@' user to see if it should be the user that sent the message or if it should be another user in the thread. 
+2. Complete the missing communication_type based on the definitions already decided. 
+3. Double check the "channel" '@' - is the message to the whole channel or is it a reply to someone's message in the channel (without an '@' or not in thread)? 
+4. Match this dataset with the one already cleaned to eliminate the amount that needs to be checked. 

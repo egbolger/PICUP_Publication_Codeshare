@@ -1,0 +1,128 @@
+[
+    {
+        "type": "message",
+        "text": "Hi, <!channel> Has anyone used the STP Lennard-Jones 2D Molecular Dynamics simulation? Any idea what units they use?\nCitation:\nH. Gould, J. Tobochnik, W. Christian, and A. Cox, Computer Program STP LENNARD-JONES 2D MD PROGRAM (2009), WWW Document, (<https:\/\/www.compadre.org\/Repository\/document\/ServeFile.cfm?ID=8624&amp;DocID=996>).",
+        "user": "U1YKN36HF",
+        "ts": "1517945988.000361",
+        "team": "T1YCNE3MJ",
+        "user_team": "T1YCNE3MJ",
+        "source_team": "T1YCNE3MJ",
+        "user_profile": {
+            "avatar_hash": "994efd27dd44",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-07-10\/692048750567_994efd27dd4425a2b26e_72.jpg",
+            "first_name": "",
+            "real_name": "",
+            "display_name": "",
+            "team": "T1YCNE3MJ",
+            "name": "",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1YKN36HF",
+            "ts": "1517946034.000000"
+        }
+    },
+    {
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1517949740.000135",
+        "user": "U1YKKMTFE",
+        "text": "<@U1YKKMTFE> has left the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1517953579.000413",
+        "user": "U1YCYCK61",
+        "text": "<@U1YCYCK61> has left the channel"
+    },
+    {
+        "type": "message",
+        "text": "Hi <@U1YKN36HF>.  Yes, they are using units where all positions are in units of (or divided by) \"sigma\" energies are in units of \"epsilon\" etc.  (It is the same thing in both their STP and CSM textbooks, and in Ch. 16 of Rubin Landau's book -- all of which are available on ComPADRE.)  Here is a table listing these units that I got from one of these books...I don't recall which.  So to turn a simulated value into SI units, you would multiply by the value of \"sigma\" or \"epsilon\" etc.",
+        "files": [
+            {
+                "id": "F95T39SAJ",
+                "created": 1517970171,
+                "timestamp": 1517970171,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U1YEMA4BA",
+                "editable": false,
+                "size": 74453,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T1YCNE3MJ-F95T39SAJ\/image.png?t=xoxe-66430479732-2156706399957-2183584631264-4cca29b1566daa7f6df741f6c516baf2",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T1YCNE3MJ-F95T39SAJ\/download\/image.png?t=xoxe-66430479732-2156706399957-2183584631264-4cca29b1566daa7f6df741f6c516baf2",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T1YCNE3MJ-F95T39SAJ-1f3ce4d4c4\/image_64.png?t=xoxe-66430479732-2156706399957-2183584631264-4cca29b1566daa7f6df741f6c516baf2",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T1YCNE3MJ-F95T39SAJ-1f3ce4d4c4\/image_80.png?t=xoxe-66430479732-2156706399957-2183584631264-4cca29b1566daa7f6df741f6c516baf2",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T1YCNE3MJ-F95T39SAJ-1f3ce4d4c4\/image_360.png?t=xoxe-66430479732-2156706399957-2183584631264-4cca29b1566daa7f6df741f6c516baf2",
+                "thumb_360_w": 360,
+                "thumb_360_h": 210,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T1YCNE3MJ-F95T39SAJ-1f3ce4d4c4\/image_480.png?t=xoxe-66430479732-2156706399957-2183584631264-4cca29b1566daa7f6df741f6c516baf2",
+                "thumb_480_w": 480,
+                "thumb_480_h": 280,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T1YCNE3MJ-F95T39SAJ-1f3ce4d4c4\/image_160.png?t=xoxe-66430479732-2156706399957-2183584631264-4cca29b1566daa7f6df741f6c516baf2",
+                "image_exif_rotation": 1,
+                "original_w": 623,
+                "original_h": 364,
+                "permalink": "https:\/\/gopicup.slack.com\/files\/U1YEMA4BA\/F95T39SAJ\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T1YCNE3MJ-F95T39SAJ-4945d35c7e",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "U1YEMA4BA",
+        "display_as_bot": false,
+        "ts": "1517970172.000132"
+    },
+    {
+        "type": "message",
+        "text": "To follow up on the whole \"dimensionless variables\" thing: I find that there is a good opportunity to talk about the concept of \"dimensionless variables\" both in the context of (1) the Ising model (doing Monte Carlo) and (2) the Lenard-Jones model (doing Molecular Dynamics).  We spend a while on both of these towards the end of the semester in my thermal class.  The \"magic\" of the dimensionless variables is that you can do the simulation ONCE and then apply the results to multiple different physical systems just by multiplying the simulated results by the appropriate system-dependent constant.",
+        "user": "U1YEMA4BA",
+        "ts": "1517970420.000008",
+        "team": "T1YCNE3MJ",
+        "user_team": "T1YCNE3MJ",
+        "source_team": "T1YCNE3MJ",
+        "user_profile": {
+            "avatar_hash": "d0f4a465cc52",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-03-31\/162811204050_d0f4a465cc527ba82943_72.png",
+            "first_name": "",
+            "real_name": " ",
+            "display_name": "",
+            "team": "T1YCNE3MJ",
+            "name": "",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "Ah, you rock! Thanks. ",
+        "user": "U1YKN36HF",
+        "ts": "1517970784.000119",
+        "team": "T1YCNE3MJ",
+        "user_team": "T1YCNE3MJ",
+        "source_team": "T1YCNE3MJ",
+        "user_profile": {
+            "avatar_hash": "994efd27dd44",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-07-10\/692048750567_994efd27dd4425a2b26e_72.jpg",
+            "first_name": "",
+            "real_name": " ",
+            "display_name": "",
+            "team": "T1YCNE3MJ",
+            "name": "",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    }
+]
