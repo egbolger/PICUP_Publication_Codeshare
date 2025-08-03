@@ -1,0 +1,83 @@
+Date,Time,Userid_From,Name_From,Message,Userid_To,At,Post_Category,Channel,To_Channel
+7/9/19,20:37:31,UL1DM98CD,,<@UBNAMV4NR> Is there a Mac OS version or equivalent?,UBNAMV4NR,,0,taylor-couette,FALSE
+7/9/19,18:48:13,UBNAMV4NR,,<@UBNAMV4NR> has joined the channel,UL1DM98CD,,joined,taylor-couette,TRUE
+7/9/19,18:48:13,UBNAMV4NR,,<@UBNAMV4NR> has joined the channel,UL1M8QLPJ,,joined,taylor-couette,TRUE
+7/9/19,18:48:13,UBNAMV4NR,,<@UBNAMV4NR> has joined the channel,UL7QW8LKX,,joined,taylor-couette,TRUE
+7/9/19,18:48:13,UL7QW8LKX,,<@UL7QW8LKX> has joined the channel,UBNAMV4NR,,joined,taylor-couette,TRUE
+7/9/19,18:48:13,UL7QW8LKX,,<@UL7QW8LKX> has joined the channel,UL1DM98CD,,joined,taylor-couette,TRUE
+7/9/19,18:48:13,UL7QW8LKX,,<@UL7QW8LKX> has joined the channel,UL1M8QLPJ,,joined,taylor-couette,TRUE
+7/9/19,18:48:13,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,UBNAMV4NR,,joined,taylor-couette,TRUE
+7/9/19,18:48:13,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,UL1DM98CD,,joined,taylor-couette,TRUE
+7/9/19,18:48:13,UL1M8QLPJ,,<@UL1M8QLPJ> has joined the channel,UL7QW8LKX,,joined,taylor-couette,TRUE
+7/9/19,18:48:13,UL1DM98CD,,<@UL1DM98CD> has joined the channel,UBNAMV4NR,,joined,taylor-couette,TRUE
+7/9/19,18:48:13,UL1DM98CD,,<@UL1DM98CD> has joined the channel,UL1M8QLPJ,,joined,taylor-couette,TRUE
+7/9/19,18:48:13,UL1DM98CD,,<@UL1DM98CD> has joined the channel,UL7QW8LKX,,joined,taylor-couette,TRUE
+7/9/19,20:38:07,UBNAMV4NR,,Of what?,UL1DM98CD,,0,taylor-couette,TRUE
+7/9/19,20:38:07,UBNAMV4NR,,Of what?,UL1M8QLPJ,,0,taylor-couette,TRUE
+7/9/19,20:38:07,UBNAMV4NR,,Of what?,UL7QW8LKX,,0,taylor-couette,TRUE
+7/9/19,20:38:17,UL1DM98CD,,ANSYS Student,UBNAMV4NR,,0,taylor-couette,TRUE
+7/9/19,20:38:17,UL1DM98CD,,ANSYS Student,UL1M8QLPJ,,0,taylor-couette,TRUE
+7/9/19,20:38:17,UL1DM98CD,,ANSYS Student,UL7QW8LKX,,0,taylor-couette,TRUE
+7/9/19,20:48:07,UKY59QCN6,,<@UKY59QCN6> has joined the channel,UBNAMV4NR,,joined,taylor-couette,TRUE
+7/9/19,20:48:07,UKY59QCN6,,<@UKY59QCN6> has joined the channel,UL1DM98CD,,joined,taylor-couette,TRUE
+7/9/19,20:48:07,UKY59QCN6,,<@UKY59QCN6> has joined the channel,UL1M8QLPJ,,joined,taylor-couette,TRUE
+7/9/19,20:48:07,UKY59QCN6,,<@UKY59QCN6> has joined the channel,UL7QW8LKX,,joined,taylor-couette,TRUE
+7/9/19,20:50:42,UBNAMV4NR,,"Unfortunately, I don't think so BUT we can run the simulation in Daedulus (which I was unable to figure out how to install in Windows, which is the reason we're using ANSYS)",UKY59QCN6,,0,taylor-couette,TRUE
+7/9/19,20:50:42,UBNAMV4NR,,"Unfortunately, I don't think so BUT we can run the simulation in Daedulus (which I was unable to figure out how to install in Windows, which is the reason we're using ANSYS)",UL1DM98CD,,0,taylor-couette,TRUE
+7/9/19,20:50:42,UBNAMV4NR,,"Unfortunately, I don't think so BUT we can run the simulation in Daedulus (which I was unable to figure out how to install in Windows, which is the reason we're using ANSYS)",UL1M8QLPJ,,0,taylor-couette,TRUE
+7/9/19,20:50:42,UBNAMV4NR,,"Unfortunately, I don't think so BUT we can run the simulation in Daedulus (which I was unable to figure out how to install in Windows, which is the reason we're using ANSYS)",UL7QW8LKX,,0,taylor-couette,TRUE
+7/9/19,22:32:27,UL1DM98CD,,Is Daedalus something to install on Mac? Google came up with nothing.,UBNAMV4NR,,0,taylor-couette,TRUE
+7/9/19,22:32:27,UL1DM98CD,,Is Daedalus something to install on Mac? Google came up with nothing.,UKY59QCN6,,0,taylor-couette,TRUE
+7/9/19,22:32:27,UL1DM98CD,,Is Daedalus something to install on Mac? Google came up with nothing.,UL1M8QLPJ,,0,taylor-couette,TRUE
+7/9/19,22:32:27,UL1DM98CD,,Is Daedalus something to install on Mac? Google came up with nothing.,UL7QW8LKX,,0,taylor-couette,TRUE
+7/10/19,1:14:20,UBNAMV4NR,,"Yes... it is basically a Python library for computational fluid dynamics... here's the link... the download is MUCH smaller than ANSYS (which brings a TON of engineering software with it), so we can probably just install on the fly, but feel free to give it a go... here's the Daedalus Project website where they tell you how to install it on a Mac... you probably want to skim though the whole thing first since Daedalus has this annoying habit of telling you how to do things the hard way, only to tell you that there is an installer that you can just run later... <https://dedalus-project.readthedocs.io/en/latest/machines/mac_os/mac_os.html>",UKY59QCN6,,0,taylor-couette,TRUE
+7/10/19,1:14:20,UBNAMV4NR,,"Yes... it is basically a Python library for computational fluid dynamics... here's the link... the download is MUCH smaller than ANSYS (which brings a TON of engineering software with it), so we can probably just install on the fly, but feel free to give it a go... here's the Daedalus Project website where they tell you how to install it on a Mac... you probably want to skim though the whole thing first since Daedalus has this annoying habit of telling you how to do things the hard way, only to tell you that there is an installer that you can just run later... <https://dedalus-project.readthedocs.io/en/latest/machines/mac_os/mac_os.html>",UL1DM98CD,,0,taylor-couette,TRUE
+7/10/19,1:14:20,UBNAMV4NR,,"Yes... it is basically a Python library for computational fluid dynamics... here's the link... the download is MUCH smaller than ANSYS (which brings a TON of engineering software with it), so we can probably just install on the fly, but feel free to give it a go... here's the Daedalus Project website where they tell you how to install it on a Mac... you probably want to skim though the whole thing first since Daedalus has this annoying habit of telling you how to do things the hard way, only to tell you that there is an installer that you can just run later... <https://dedalus-project.readthedocs.io/en/latest/machines/mac_os/mac_os.html>",UL1M8QLPJ,,0,taylor-couette,TRUE
+7/10/19,1:14:20,UBNAMV4NR,,"Yes... it is basically a Python library for computational fluid dynamics... here's the link... the download is MUCH smaller than ANSYS (which brings a TON of engineering software with it), so we can probably just install on the fly, but feel free to give it a go... here's the Daedalus Project website where they tell you how to install it on a Mac... you probably want to skim though the whole thing first since Daedalus has this annoying habit of telling you how to do things the hard way, only to tell you that there is an installer that you can just run later... <https://dedalus-project.readthedocs.io/en/latest/machines/mac_os/mac_os.html>",UL7QW8LKX,,0,taylor-couette,TRUE
+7/10/19,3:10:03,UBNAMV4NR,,Please check this out before 8:30 AM on Wednesday 7/10. so we can meet and decide what our activities will be for the day. The 0 th file name and title is Activities_for_7_10.txt; Activities for 7/10.,UKY59QCN6,,0,taylor-couette,TRUE
+7/10/19,3:10:03,UBNAMV4NR,,Please check this out before 8:30 AM on Wednesday 7/10. so we can meet and decide what our activities will be for the day. The 0 th file name and title is Activities_for_7_10.txt; Activities for 7/10.,UL1DM98CD,,0,taylor-couette,TRUE
+7/10/19,3:10:03,UBNAMV4NR,,Please check this out before 8:30 AM on Wednesday 7/10. so we can meet and decide what our activities will be for the day. The 0 th file name and title is Activities_for_7_10.txt; Activities for 7/10.,UL1M8QLPJ,,0,taylor-couette,TRUE
+7/10/19,3:10:03,UBNAMV4NR,,Please check this out before 8:30 AM on Wednesday 7/10. so we can meet and decide what our activities will be for the day. The 0 th file name and title is Activities_for_7_10.txt; Activities for 7/10.,UL7QW8LKX,,0,taylor-couette,TRUE
+7/10/19,10:02:25,UL1DM98CD,,"I'll probably need help with this installation, I have a work laptop with Anaconda but no conda or pip3",UBNAMV4NR,,0,taylor-couette,TRUE
+7/10/19,10:02:25,UL1DM98CD,,"I'll probably need help with this installation, I have a work laptop with Anaconda but no conda or pip3",UKY59QCN6,,0,taylor-couette,TRUE
+7/10/19,10:02:25,UL1DM98CD,,"I'll probably need help with this installation, I have a work laptop with Anaconda but no conda or pip3",UL1M8QLPJ,,0,taylor-couette,TRUE
+7/10/19,10:02:25,UL1DM98CD,,"I'll probably need help with this installation, I have a work laptop with Anaconda but no conda or pip3",UL7QW8LKX,,0,taylor-couette,TRUE
+7/10/19,10:15:53,UBNAMV4NR,,Anaconda SHOULD install conda... We'll figure it out.,UKY59QCN6,,0,taylor-couette,TRUE
+7/10/19,10:15:53,UBNAMV4NR,,Anaconda SHOULD install conda... We'll figure it out.,UL1DM98CD,,0,taylor-couette,TRUE
+7/10/19,10:15:53,UBNAMV4NR,,Anaconda SHOULD install conda... We'll figure it out.,UL1M8QLPJ,,0,taylor-couette,TRUE
+7/10/19,10:15:53,UBNAMV4NR,,Anaconda SHOULD install conda... We'll figure it out.,UL7QW8LKX,,0,taylor-couette,TRUE
+7/11/19,20:49:16,UL1DM98CD,,Is there a convenient break time tomorrow afternoon for those who would like to go to the creamery?,UBNAMV4NR,,0,taylor-couette,TRUE
+7/11/19,20:49:16,UL1DM98CD,,Is there a convenient break time tomorrow afternoon for those who would like to go to the creamery?,UKY59QCN6,,0,taylor-couette,TRUE
+7/11/19,20:49:16,UL1DM98CD,,Is there a convenient break time tomorrow afternoon for those who would like to go to the creamery?,UL1M8QLPJ,,0,taylor-couette,TRUE
+7/11/19,20:49:16,UL1DM98CD,,Is there a convenient break time tomorrow afternoon for those who would like to go to the creamery?,UL7QW8LKX,,0,taylor-couette,TRUE
+7/11/19,20:50:12,UL1DM98CD,,"The options are 1:30-3:00 and 3:00-4:30, I was guessing 3:00-4:30 as it buts against the end of the day/dinner.",UBNAMV4NR,,0,taylor-couette,TRUE
+7/11/19,20:50:12,UL1DM98CD,,"The options are 1:30-3:00 and 3:00-4:30, I was guessing 3:00-4:30 as it buts against the end of the day/dinner.",UKY59QCN6,,0,taylor-couette,TRUE
+7/11/19,20:50:12,UL1DM98CD,,"The options are 1:30-3:00 and 3:00-4:30, I was guessing 3:00-4:30 as it buts against the end of the day/dinner.",UL1M8QLPJ,,0,taylor-couette,TRUE
+7/11/19,20:50:12,UL1DM98CD,,"The options are 1:30-3:00 and 3:00-4:30, I was guessing 3:00-4:30 as it buts against the end of the day/dinner.",UL7QW8LKX,,0,taylor-couette,TRUE
+7/11/19,21:09:37,UBNAMV4NR,,Whatever is fine but we should coordinate so everybody is going at the same time.,UKY59QCN6,,0,taylor-couette,TRUE
+7/11/19,21:09:37,UBNAMV4NR,,Whatever is fine but we should coordinate so everybody is going at the same time.,UL1DM98CD,,0,taylor-couette,TRUE
+7/11/19,21:09:37,UBNAMV4NR,,Whatever is fine but we should coordinate so everybody is going at the same time.,UL1M8QLPJ,,0,taylor-couette,TRUE
+7/11/19,21:09:37,UBNAMV4NR,,Whatever is fine but we should coordinate so everybody is going at the same time.,UL7QW8LKX,,0,taylor-couette,TRUE
+7/12/19,9:07:41,UBNAMV4NR,,<!channel> Reminder: We are meeting in room 102 of Centennial Science Hall today at 8:30 and not on the 3rd floor of the UC.,UKY59QCN6,,0,taylor-couette,TRUE
+7/12/19,9:07:41,UBNAMV4NR,,<!channel> Reminder: We are meeting in room 102 of Centennial Science Hall today at 8:30 and not on the 3rd floor of the UC.,UL1DM98CD,,0,taylor-couette,TRUE
+7/12/19,9:07:41,UBNAMV4NR,,<!channel> Reminder: We are meeting in room 102 of Centennial Science Hall today at 8:30 and not on the 3rd floor of the UC.,UL1M8QLPJ,,0,taylor-couette,TRUE
+7/12/19,9:07:41,UBNAMV4NR,,<!channel> Reminder: We are meeting in room 102 of Centennial Science Hall today at 8:30 and not on the 3rd floor of the UC.,UL7QW8LKX,,0,taylor-couette,TRUE
+7/13/19,10:04:22,UBNAMV4NR,,Here's a handout with various experiments that students can do with the TC system. The 0 th file name and title is Taylor-vortex-instabilities-june-2012.pdf; Taylor-vortex-instabilities-june-2012.pdf.,UKY59QCN6,,0,taylor-couette,TRUE
+7/13/19,10:04:22,UBNAMV4NR,,Here's a handout with various experiments that students can do with the TC system. The 0 th file name and title is Taylor-vortex-instabilities-june-2012.pdf; Taylor-vortex-instabilities-june-2012.pdf.,UL1DM98CD,,0,taylor-couette,TRUE
+7/13/19,10:04:22,UBNAMV4NR,,Here's a handout with various experiments that students can do with the TC system. The 0 th file name and title is Taylor-vortex-instabilities-june-2012.pdf; Taylor-vortex-instabilities-june-2012.pdf.,UL1M8QLPJ,,0,taylor-couette,TRUE
+7/13/19,10:04:22,UBNAMV4NR,,Here's a handout with various experiments that students can do with the TC system. The 0 th file name and title is Taylor-vortex-instabilities-june-2012.pdf; Taylor-vortex-instabilities-june-2012.pdf.,UL7QW8LKX,,0,taylor-couette,TRUE
+7/13/19,13:38:54,UL1M8QLPJ,,We've been tasked with assembling slides while tours are occurring. Meet in the lounge with coffee (across from lab). Meet you there!,UBNAMV4NR,,0,taylor-couette,TRUE
+7/13/19,13:38:54,UL1M8QLPJ,,We've been tasked with assembling slides while tours are occurring. Meet in the lounge with coffee (across from lab). Meet you there!,UKY59QCN6,,0,taylor-couette,TRUE
+7/13/19,13:38:54,UL1M8QLPJ,,We've been tasked with assembling slides while tours are occurring. Meet in the lounge with coffee (across from lab). Meet you there!,UL1DM98CD,,0,taylor-couette,TRUE
+7/13/19,13:38:54,UL1M8QLPJ,,We've been tasked with assembling slides while tours are occurring. Meet in the lounge with coffee (across from lab). Meet you there!,UL7QW8LKX,,0,taylor-couette,TRUE
+8/13/20,23:48:53,U018T91P469,,<@U018T91P469> has joined the channel,UBNAMV4NR,,joined,taylor-couette,TRUE
+8/13/20,23:48:53,U018T91P469,,<@U018T91P469> has joined the channel,UKY59QCN6,,joined,taylor-couette,TRUE
+8/13/20,23:48:53,U018T91P469,,<@U018T91P469> has joined the channel,UL1DM98CD,,joined,taylor-couette,TRUE
+8/13/20,23:48:53,U018T91P469,,<@U018T91P469> has joined the channel,UL1M8QLPJ,,joined,taylor-couette,TRUE
+8/13/20,23:48:53,U018T91P469,,<@U018T91P469> has joined the channel,UL7QW8LKX,,joined,taylor-couette,TRUE
+8/26/20,15:13:46,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,UBNAMV4NR,,joined,taylor-couette,TRUE
+8/26/20,15:13:46,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,UKY59QCN6,,joined,taylor-couette,TRUE
+8/26/20,15:13:46,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,UL1DM98CD,,joined,taylor-couette,TRUE
+8/26/20,15:13:46,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,UL1M8QLPJ,,joined,taylor-couette,TRUE
+8/26/20,15:13:46,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,UL7QW8LKX,,joined,taylor-couette,TRUE
+8/26/20,15:13:46,U010HJ8QCDB,,<@U010HJ8QCDB> has joined the channel,U018T91P469,,joined,taylor-couette,TRUE
